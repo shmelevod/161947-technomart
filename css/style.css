@@ -1,0 +1,422 @@
+body {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+  font-family: 'PT Sans', "Arial", sans-serif;
+  background: #ffffff;
+  width: 1200px;
+  margin:0 auto;
+  outline: 1px solid #000000;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: normal;
+  font-style: regular;
+  font-family: 'Cuprum', "Arial", sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+  font-style: regular;
+  font-family: 'Cuprum', "Arial", sans-serif;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'PT Sans', "Arial", sans-serif;
+}
+/*legend*/
+.price-range-title,
+.filter-brands-title,
+.filter-source-title {
+  font-size: 17px;
+  line-height: 30px;
+  color: #776589;
+  font-weight: bold;
+  font-family: 'PT Sans', "Arial", sans-serif;
+}
+
+.service-slide span{
+  font-size: 36px;
+  line-height: 24px;
+  color: #32425c;
+  font-weight: normal;
+  font-style: regular;
+  font-family: 'Cuprum', "Arial", sans-serif;
+}
+
+.main-container {
+  width: 940px;
+  margin:0 auto;
+  outline: 1px solid #000000;
+}
+
+
+/*main-header вопросы по обертке*/
+.main-header {
+  outline: 1px solid #000000;
+  background-color: #f1f5f7;
+  min-height: 320px;
+}
+
+.header-menu-top {
+ background-color: #293449;
+ min-height: 40px;
+}
+
+.header-menu-top a {
+  width: 150px;
+  float: right;
+  outline: 1px solid #ffffff;
+}
+
+.index-logo {
+ float: left;
+ width: 220px;
+}
+
+.menu-top-search {
+  width: 270px;
+  float: left;
+}
+.popup-add-cart {
+  display: none;
+}
+
+/*header-menu-midlle 70*/
+.header-menu-midlle {
+  min-height: 160px;
+  outline: 1px solid #000000;
+}
+
+.menu-info-text {
+  font-size: 16px;
+  color: #ee3643;
+}
+
+
+div .menu-info-text {
+  display: inline-block;
+  ;
+}
+
+.menu-info-adress  {
+  font-size: 14px;
+  color: 32425c;
+}
+
+div .menu-info-contacts {
+  display: inline-block;
+}
+
+.user-block  {
+  display: inline-block;
+}
+
+.header-menu-nav {
+  background-color: #293449;
+  height: 60px;
+  border: 1px solid transparent;
+}
+
+.header-menu-navigation li {
+  display: inline;
+}
+
+/*.catalog-product*/
+.catalog-product:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*breadcrumbs*/
+
+.breadcrumbs {
+  height: 60px;
+  outline: 1px solid #000000;
+  padding-top: 1px;           /*костыль*/
+
+}
+
+.breadcrumbs-list li {
+  display: inline;
+  list-style: none;
+}
+/*сделать 1 class подобным*/
+.title-page-catalog {
+  height: 90px;
+  outline: 1px solid #000000;
+  background-color: #edaeae;
+  margin-bottom: 20px;
+  padding-top: 1px;
+}
+/*filter*/
+.filter-form {
+  width: 220px;
+  min-height: 750px;
+  outline: 1px solid #000000;
+  background-color: #89daae;
+  float: left;
+  margin-right: 20px;
+}
+
+.menu-top-sorting {
+  outline: 1px solid #000000;
+  background-color: #9994ae;
+  height: 40px;
+  width: 700px;
+  float: right;
+}
+.menu-top-sorting li {
+  display: inline;
+  list-style: none;
+}
+.menu-sorting-list {
+  float: right;
+}
+
+.catalog-product .product {
+  margin-bottom: 20px;
+}
+
+.catalog-product .product:nth-of-type(3),
+.catalog-product .product:nth-of-type(6),
+.catalog-product .product:nth-of-type(9) {
+  margin-right: 0;
+}
+
+.catalog-page-paginator {
+  height: 40px;
+  width: 285px;
+  margin-left: 240px;
+  margin-top: 30px;
+  outline: 1px solid #000000;
+}
+
+.decsription {
+  outline: 1px solid #000000;
+  background-color: #f2f6f8;
+  height: 260px;
+  margin-top: 60px;
+  border: 1px solid transparent;
+}
+
+/*promo*/
+.promo {
+ background-color: #92f482;
+ width: 940px;
+ height: 430px;
+ margin-bottom: 30px;
+ padding-top: 60px;
+}
+
+.promo-slide-drill {
+ display:none;
+}
+
+.promo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.promo-item {
+  background-color: #f2b15c;
+  width: 300px;
+  height: 123px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.promo-techniс,
+.promo-discount,
+.promo-delivery {
+  margin-right: 0;
+}
+
+.promo-slider {
+  width: 620px;
+  height: 266px;
+}
+
+/*popular-products*/
+.popular-products {
+  background-color: #f7b6b9;
+  outline: 1px solid #000000;
+  height: 408px;
+  width: 940px;
+  margin-bottom: 20px;
+}
+.title-popular-products {
+  height: 90px;
+  width: 940px;
+  background-color: #92f482;
+  margin-bottom: 20px;
+}
+
+.product {
+  outline: 1px solid #000000;
+  height: 315;
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.product:nth-of-type(4) {
+  margin-right: 0;
+}
+
+/*popular-brands*/
+.popular-brands {
+  outline: 1px solid #000000;
+  height: 428px;  /*нужно ли?*/
+  margin-bottom: 90px;
+}
+
+.title-popular-brands {
+  background-color: #92f482;
+  outline: 1px solid #000000;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.popular-brands-list {
+ background-color: #f2f384;
+ height: 328px;
+ width: 940px;
+}
+
+.popular-brands-list a {
+  outline: 1px solid #000000;
+  width: 220px;
+  height: 140px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.popular-brands-list a:nth-of-type(4),
+.popular-brands-list a:nth-of-type(8) {
+  margin-right: 0;
+}
+
+/*service-bottom-block*/
+.service-block-slider {
+  outline: 1px solid #000000;
+  background-color: #f7b9c0;
+}
+
+
+.service-block-bottom {
+  outline: 1px solid #000000;
+  background-color: #f6f7b9;
+  height: 520px;
+}
+
+/*slide hidden*/
+.service-slide-delivery,
+.service-slide-guarantee,
+.service-slide-credit {
+  display: none;
+}
+
+/*company-info*/
+.company-info {
+ outline: 1px solid #000000;
+ height: 430px;
+ padding-top: 80px;
+
+}
+
+.popup-modal-email {
+  display: none;
+}
+
+.company-about p {
+  font-size: 13px;
+}
+
+.company-about {
+  outline: 1px solid #000000;
+  width: 535px;
+  float: left;
+
+}
+
+.company-contacts p {
+  font-size: 13px;
+}
+
+.company-contacts {
+  outline: 1px solid #000000;
+  background-color: #f9d69f;
+  width: 365px;
+  float: right;
+}
+
+.main-footer {
+  min-height: 300px;
+}
+
+.main-footer-top {
+  outline: 1px solid #000000;
+  background-color: #fcc7c7;
+  height: 190px;
+  width: 1200px;
+}
+
+.footer-info {
+  width: 345px;
+  float: left;
+  height: 90px;
+}
+
+.footer-nav-top li {
+  display: inline-block;
+}
+
+.footer-nav-bottom li {
+  display: inline-block;
+}
+
+.footer-nav {
+ width: 555px;
+ float: right;
+}
+
+.main-footer-bottom {
+ outline: 1px solid #000000;
+ background-color: #f2f384;
+ height: 105px;
+ width: 1200px;
+}
+.footer-copyright {
+  outline: 1px solid #000000;
+  float: left;
+}
+
+.footer-social {
+  float: left;
+}
+
+.connect-academy {
+  float: right;
+}
+
+.mail-academy,
+.link-academy {
+  display: inline-block;
+}
+
+
