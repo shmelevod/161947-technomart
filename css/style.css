@@ -101,7 +101,17 @@ cursor: pointer;
 }
 
 
+.sprite--icon-search {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -441px;
+}
 
+.sprite--icon-search-red {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -478px;
+}
 
 
 
@@ -140,8 +150,8 @@ cursor: pointer;
   left: 12px;
   width: 17px;
     height: 17px;
-    background-position: -10px -79px;
-  background-image: url("../img/icons-sea-br-us.png");
+    background-position: -10px -441px;
+  background-image: url("../img/icons-sprite.png");
   background-repeat: no-repeat;
   opacity: 0.3;
 }
@@ -168,10 +178,10 @@ cursor: pointer;
     position: absolute;
   top:12px;
   left: 12px;
-  width: 17px;
+ width: 17px;
     height: 17px;
-   background-position: -10px -116px;
-  background-image: url("../img/icons-sea-br-us.png");
+    background-position: -10px -478px;
+  background-image: url("../img/icons-sprite.png");
   background-repeat: no-repeat;
   opacity: 1;
     }
@@ -2942,224 +2952,189 @@ input[type="radio"]:checked + .source-label:disabled::after {
 }
 
 
-
-
-
-.sprite--icon-check-off-dis {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -10px;
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
 }
-
-.sprite--icon-check-off-hover {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -53px;
-}
-
-.sprite--icon-check-off-norm {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -96px;
-}
-
-.sprite--icon-check-on-dis {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -139px;
-}
-
-.sprite--icon-check-on-hover {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -182px;
-}
-
-.sprite--icon-check-on-normal {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -225px;
-}
-
-.sprite--icon-circle-dis {
-  width: 25px;
-  height: 25px;
-  background-position: -10px -268px;
-}
-
 
 .sprite--icon-basket2 {
-  width: 17px;
-  height: 16px;
-  background-position: -10px -10px;
-}
-
-
-.sprite--icon-circle {
-  width: 25px;
-  height: 25px;
-  background-position: -10px -132px;
+    width: 17px;
+    height: 16px;
+    background-position: -10px -10px;
 }
 
 .sprite--icon-down-dir {
-  width: 11px;
-  height: 10px;
-  background-position: -10px -222px;
+    width: 11px;
+    height: 10px;
+    background-position: -10px -46px;
 }
 
-
+.sprite--icon-facebook-copy {
+    width: 10px;
+    height: 18px;
+    background-position: -10px -76px;
+}
 
 .sprite--icon-home {
-  width: 15px;
-  height: 12px;
-  background-position: -10px -290px;
+    width: 15px;
+    height: 12px;
+    background-position: -10px -114px;
+}
+
+.sprite--icon-instagramm-copy {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -146px;
 }
 
 .sprite--icon-left {
-  width: 22px;
-  height: 40px;
-  background-position: -10px -359px;
+    width: 22px;
+    height: 40px;
+    background-position: -10px -183px;
+}
+
+.sprite--icon-login-hov {
+    width: 20px;
+    height: 17px;
+    background-position: -10px -243px;
 }
 
 .sprite--icon-logout {
-  width: 21px;
-  height: 17px;
-  background-position: -10px -419px;
+    width: 21px;
+    height: 17px;
+    background-position: -10px -280px;
 }
 
 .sprite--icon-right {
-  width: 22px;
-  height: 40px;
-  background-position: -10px -456px;
+    width: 22px;
+    height: 40px;
+    background-position: -10px -317px;
+}
+
+.sprite--icon-right-breads {
+    width: 8px;
+    height: 12px;
+    background-position: -10px -377px;
 }
 
 .sprite--icon-right-small {
-  width: 8px;
-  height: 12px;
-  background-position: -10px -516px;
+    width: 8px;
+    height: 12px;
+    background-position: -10px -409px;
+}
+
+.sprite--icon-search {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -441px;
+}
+
+.sprite--icon-search-red {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -478px;
 }
 
 .sprite--icon-up-dir {
-  width: 11px;
-  height: 10px;
-  background-position: -10px -548px;
+    width: 11px;
+    height: 10px;
+    background-position: -10px -515px;
 }
 
-.sprite--icon-user {
-  width: 20px;
-  height: 18px;
-  background-position: -10px -578px;
+.sprite--icon-user-dark {
+    width: 20px;
+    height: 18px;
+    background-position: -10px -545px;
 }
 
-.sprite-Cross-_16x16_-copy {
-  width: 21px;
-  height: 21px;
-  background-position: -10px -685px;
+.sprite--icon-user-gray {
+    width: 20px;
+    height: 18px;
+    background-position: -10px -583px;
 }
 
-.sprite-Shape-3-copy-3 {
-  width: 39px;
-  height: 30px;
-  background-position: -10px -726px;
+.sprite--icon-vk-copy {
+    width: 20px;
+    height: 12px;
+    background-position: -10px -621px;
 }
 
-.sprite-new-flag {
-  width: 60px;
-  height: 59px;
-  background-position: -10px -1271px;
-}
-
-.sprite--icon-basket2 {
-  width: 17px;
-  height: 16px;
-  background-position: -10px -10px;
-}
-
-
-
-
-.sprite--icon-right-small {
-  width: 8px;
-  height: 12px;
-  background-position: -10px -516px;
-}
-
-.sprite--icon-up-dir {
-  width: 11px;
-  height: 10px;
-  background-position: -10px -548px;
-}
-
-.sprite--icon-user {
-  width: 20px;
-  height: 18px;
-  background-position: -10px -578px;
+.sprite--login-icon {
+    width: 20px;
+    height: 17px;
+    background-position: -10px -653px;
 }
 
 .sprite-Cross-_16x16_-copy {
-  width: 21px;
-  height: 21px;
-  background-position: -10px -685px;
+    width: 21px;
+    height: 21px;
+    background-position: -10px -690px;
 }
 
 .sprite-Shape-3-copy-3 {
-  width: 39px;
-  height: 30px;
-  background-position: -10px -726px;
+    width: 39px;
+    height: 30px;
+    background-position: -10px -731px;
 }
 
-.sprite-new-flag {
-  width: 60px;
-  height: 59px;
-  background-position: -10px -1271px;
+.sprite-basket-icon {
+    width: 17px;
+    height: 16px;
+    background-position: -10px -781px;
 }
 
-.sprite--icon-check-off-dis {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -10px;
+.sprite-bookmark-icon {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -817px;
 }
 
-.sprite--icon-check-off-hover {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -53px;
+.sprite-icon-items-delivery {
+    width: 78px;
+    height: 63px;
+    background-position: -10px -853px;
 }
 
-.sprite--icon-check-off-norm {
-  width: 23px;
-  height: 23px;
-  background-position: -10px -96px;
+.sprite-icon-items-discount {
+    width: 59px;
+    height: 72px;
+    background-position: -10px -936px;
 }
 
-.sprite--icon-check-on-dis {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -139px;
+.sprite-icon-items-materials {
+    width: 44px;
+    height: 65px;
+    background-position: -10px -1028px;
 }
 
-.sprite--icon-check-on-hover {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -182px;
+.sprite-icon-items-technics {
+    width: 78px;
+    height: 62px;
+    background-position: -10px -1113px;
 }
 
-.sprite--icon-check-on-normal {
-  width: 27px;
-  height: 23px;
-  background-position: -10px -225px;
+.sprite-icon-items-tools {
+    width: 75px;
+    height: 61px;
+    background-position: -10px -1195px;
 }
 
-.sprite--icon-circle-dis {
-  width: 25px;
-  height: 25px;
-  background-position: -10px -268px;
+.sprite-phone-icon {
+    width: 19px;
+    height: 19px;
+    background-position: -10px -1276px;
 }
 
-.sprite--icon-circle-dot-dis {
-  width: 25px;
-  height: 25px;
-  background-position: -10px -313px;
+.sprite-search-icon {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1315px;
 }
 
+.sprite-vert-line-servise {
+    width: 10px;
+    height: 272px;
+    background-position: -10px -1352px;
+}
 
