@@ -114,9 +114,6 @@ cursor: pointer;
 }
 
 
-
-
-
 .menu-top-search {
  position: relative;
  width: 270px;
@@ -125,8 +122,19 @@ cursor: pointer;
  height: 42px;
 }
 
+.menu-top-search button {
+  display: block;
+   border: none;
+  position: absolute;
+    top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background: #293449;
+}
+
+
 .menu-top-search input {
- box-sizing: border-box;
  padding-left: 50px;
  padding-bottom: 10px;
  padding-top: 10px;
@@ -142,7 +150,7 @@ cursor: pointer;
 }
 
 
-.icon-search::after {
+.menu-top-search button::after {
   content: "";
   display: block;
   position: absolute;
@@ -157,44 +165,53 @@ cursor: pointer;
 }
 
 
-
-
 .menu-top-search input:hover {
   color: #ffffff;
   background: #212a3a;
 }
 
-.icon-search:hover::after {
-  opacity: 1;
+.menu-top-search:hover button {
+  background: #212a3a;
+}
+
+
+.menu-top-search button:hover::after  {
+    opacity: 1;
   }
 
-.menu-top-search input:hover ~ .icon-search:hover::after {
+
+
+
+ /*------------------------------------------------------не работает----------*/
+
+.menu-top-search input:hover ~ button:hover::after {
    opacity: 1;
 }
 
-                /*-------не работает----------*/
- .icon-search:focus::after {
-    content: "";
-    position: absolute;
+
+
+ button:focus::after {
+  content: "";
+  position: absolute;
   top:12px;
   left: 12px;
- width: 17px;
-    height: 17px;
-    background-position: -10px -478px;
+  width: 17px;
+  height: 17px;
+  background-position: -10px -478px;
   background-image: url("../img/icons-sprite.png");
   background-repeat: no-repeat;
   opacity: 1;
-    }
+}
 
 .menu-top-search input:focus {
   color: #000000;
   background: #ffffff;
 }
 
-.menu-top-search input:focus ~.icon-search:focus::after {
-     background-position: -10px -478px;
+.menu-top-search input:focus ~ button:focus::after {
+  background-position: -10px -478px;
   background-image: url("../img/icons-sprite.png");
-    opacity: 1;
+  opacity: 1;
 
 }
 
@@ -227,6 +244,9 @@ input:focus:-ms-input-placeholder {
 	opacity: 1;
 	color: #000000;
 }
+
+
+
 
 .menu-order-info {
   float: right;
@@ -784,7 +804,6 @@ opacity: 0.6;
  background-repeat: no-repeat;
   opacity: 0.6;
 }
-
 
 
 /*---------------------------header-menu-nav--------------------------------------------------*/
