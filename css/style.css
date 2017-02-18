@@ -64,8 +64,9 @@ h4 {
 }
 
 .header-menu-top {
-  min-height: 42px;
+ height: 42px;
    background-color: #293449;
+
 }
 
 
@@ -263,7 +264,7 @@ input:focus:-ms-input-placeholder {
   box-sizing: border-box;
    width: 150px;
   padding-top: 12px;
-  padding-bottom: 14px;
+  padding-bottom: 13px;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
@@ -1033,41 +1034,25 @@ left: 0;
 
 
 /*------------controls---------------------------------*/
-.promo-slider-nav .promo-slider-prev {
-   position: relative;
-   bottom: 155px;
-  left: 24px;
-  width: 24px;
- height: 45px;
-
-}
 
 
  .promo-slider-prev::after {
   content: "";
  position: absolute;
-   bottom: 0;
-  left: 0;
+   bottom: 133px;
+  left: 23px;
 width: 22px;
 height: 40px;
  background-position: -10px -183px;
-  background-image:  url("../img/icons-sprite-2.png");
+  background-image: url("../img/icons-sprite-2.png");
  background-repeat: no-repeat;
-
-}
-.promo-slider-nav .promo-slider-next {
-  position:relative;
-   bottom: 155px;
- left: 550px;
-  width: 24px;
- height: 45px;
 }
 
 .promo-slider-next::after {
   content: "";
  position: absolute;
-   bottom:0;
-  right: 0;
+   bottom: 133px;
+  left: 575px;
 width: 22px;
 height: 40px;
 background-position: -10px -317px;
@@ -3282,7 +3267,7 @@ background-image:  url("../img/icons-sprite-2.png");
 /*------------------------------feedback-pop-up------------------------------------*/
 
 .feedback-pop-up {
-  display: none;
+  /*display: none;*/
     position: fixed;
   box-sizing: border-box;
   left: 50%;
