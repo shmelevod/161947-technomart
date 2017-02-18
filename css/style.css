@@ -64,16 +64,17 @@ h4 {
 }
 
 .header-menu-top {
-min-height: 42px;
-  padding-top: 0;
-  background-color: #293449;
+  min-height: 42px;
+   background-color: #293449;
 }
-/*поиенять позишн*/
+
+
 .index-logo a {
  box-sizing: border-box;
+  display: block;
  float: left;
- position: absolute;
- padding: 10px 55px 8px 55px;
+   padding-top: 10px;
+  padding-bottom: 10px;
  width: 220px;
  font-size: 24px;
  line-height: 24px;
@@ -90,13 +91,13 @@ min-height: 42px;
 .index-logo a:hover {
 background-color: #ca2c37;
 cursor: pointer;
-  box-shadow: 0 6px 0 0 #9a212a;
+  box-shadow: 0 5px 0 0 #9a212a;
 }
 
 .index-logo a:active {
   background-color: #ba2732;
   cursor: pointer;
-  box-shadow: 0 6px 0 0 #8e1e26;
+  box-shadow: 0 5px 0 0 #8e1e26;
 }
 
 
@@ -114,11 +115,10 @@ cursor: pointer;
 
 
 .menu-top-search {
- position: relative;
+   position: relative;
  width: 270px;
  display: inline-block;
- margin-left: 220px;
- height: 42px;
+  height: 42px;
 }
 
 .menu-top-search button {
@@ -209,7 +209,6 @@ cursor: pointer;
    border: 0;
 }
 
-
 .menu-top-search input:focus ~ button::after {
 
   background-position: -10px -476px;
@@ -219,11 +218,6 @@ cursor: pointer;
    opacity: 1;
  border: 0;
 }
-
-
-
-
-
 
 .menu-top-search input::-webkit-input-placeholder {
 	color: #ffffff;
@@ -269,7 +263,7 @@ input:focus:-ms-input-placeholder {
   box-sizing: border-box;
    width: 150px;
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 14px;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
