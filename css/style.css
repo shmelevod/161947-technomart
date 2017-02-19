@@ -1026,9 +1026,7 @@ left: 0;
     width: 195px;
     margin-right: 25px;
     padding-top: 12px;
-
-    padding-right: -9px;
-    padding-left: 7px;
+       padding-left: 7px;
   text-align: center;
      border-radius: 5px;
   text-decoration: none;
@@ -1248,11 +1246,11 @@ justify-content: center;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-   width: 220px;
-  height: 145px;
+   width: 218px;
+  height: 143px;
    margin-right: 20px;
   margin-bottom: 20px;
-   outline: 1px solid #000000;
+  border: 1px solid #e5e5e5;
    	}
 
 
@@ -1345,7 +1343,7 @@ input[type="radio"]:checked + .service-block-label {
   border-bottom:  1px solid #ffffff;
 }
 
-input[type="radio"]: + .service-block-label:hover {
+input[type="radio"]:checked + .service-block-label:hover {
   color: #32425c;
   background: #293449;
   border-top: 1px solid #405069;
@@ -1492,7 +1490,7 @@ padding-top: 12px;
 
 .company-about p {
   font-size: 13px;
-  line-height: 24p;
+  line-height: 24px;
   font-weight: normal;
   color: #000000;
   font-family: 'PT Sans', "Arial", sans-serif;
@@ -1686,7 +1684,6 @@ width: 220px;
 }
 
 .main-footer-top {
-
   min-height: 190px;
   background: #32425c;
 }
@@ -1819,14 +1816,12 @@ box-shadow: 0 6px 0 0 #9a212a;
 }
 
 .main-footer-bottom {
- outline: 1px solid #000000;
  height: 108px;
  background: #293449;
 }
 
 .footer-copyright {
-  outline: 1px solid #000000;
-  float: left;
+    float: left;
   padding-top: 40px;
   font-size: 16px;
   line-height: 18px;
@@ -3088,9 +3083,7 @@ padding-top: 21px;
    margin-top: 33px;
   margin-bottom: 29px;
     clear: both;
-
 }
-
 
 .catalog-page-paginator a {
   display: inline-block;
@@ -3142,9 +3135,7 @@ padding-top: 21px;
   box-sizing: border-box;
   height: 260px;
   margin-top: 30px;
-  outline: 1px solid #000000;
-  background-color: #f2f6f8;
-  /*margin-top: 60px;*/
+   background-color: #f2f6f8;
   border: 1px solid transparent;
   clear: both;
 }
@@ -3163,13 +3154,7 @@ padding-top: 21px;
 }
 
 
-
-
-
-
-
-
-/*---------------------------попап  в корзину-------------------------------*/            /*состояния кнопкам?*/
+/*--------------------------modal---в корзину-------------------------------*/
 .modal-add-cart {
   position: fixed;
   box-sizing: border-box;
@@ -3296,7 +3281,7 @@ padding-top: 21px;
 
 
 
-/*------------------------------feedback-pop-up------------------------------------*/
+/*----------------------------write-us -------------------modal-------------------*/
 
 .modal-write-us {
   display: none;
@@ -3439,11 +3424,7 @@ height: 112px;
   background-repeat: no-repeat;
 }
 
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
+/*----------------sprite---------------------------------------------------------------*/
 
 .sprite--icon-basket2 {
     width: 17px;
