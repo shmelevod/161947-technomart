@@ -1023,11 +1023,12 @@ left: 0;
   position: absolute;
  bottom: 27px;
   height: 40px;
-  width: 195px;
-  margin-right: 25px;
-  padding-top: 12px;
-  padding-bottom: 9px;
-  padding-right: 25px;
+    width: 195px;
+    margin-right: 25px;
+    padding-top: 12px;
+
+    padding-right: -9px;
+    padding-left: 7px;
   text-align: center;
      border-radius: 5px;
   text-decoration: none;
@@ -1082,7 +1083,7 @@ background-position: -10px -317px;
     display: inline-block;
   width: 6px;
   height: 6px;
-  margin-right: 10px;
+  margin-right: 7px;
   vertical-align: top;
   background-color: #ffffff;
   border: 2px solid #ffffff;
@@ -1121,6 +1122,7 @@ background-position: -10px -317px;
   .popular-products .product:nth-of-type(4) {
     margin-right: 0;
   }
+
   .popular-products .product {
    min-height: 315px;
 
@@ -1129,9 +1131,7 @@ background-position: -10px -317px;
  .popular-products {
    box-sizing: border-box;
    width: 940px;
-   /*outline: 1px solid #000000;*/
-   margin-bottom: 9px;
-   font-size: 0;
+        font-size: 0;
 
  }
 
@@ -1198,12 +1198,12 @@ background-position: -10px -317px;
 .title-popular-brands a {
  box-sizing: border-box;
  float: right;
- height: 40px;
- width: 250px;
-margin-top: 25px;
-margin-right: 26px;
-padding-bottom: 10px;
- padding-top: 10px;
+    height: 40px;
+    width: 250px;
+    margin-top: 25px;
+    margin-right: 26px;
+
+    padding-top: 11px;
 font-size: 14px;
  line-height: 18px;
  font-family: 'Cuprum', "Arial", sans-serif;
@@ -1375,7 +1375,7 @@ input[type="radio"]: + .service-block-label:hover {
 
 /*--------------------------slide---------------------*/
 .service-slide-delivery {
-  /* display: none;*/
+/* display: none;*/
 }
 
 .service-slide-guarantee{
@@ -1388,6 +1388,8 @@ input[type="radio"]: + .service-block-label:hover {
 
 
 .service-block-slider span {
+  display: block;
+  margin-bottom: 33px;
   font-size: 36px;
   line-height: 24px;
   color: #32425c;
@@ -1409,24 +1411,37 @@ input[type="radio"]: + .service-block-label:hover {
   top: 240px;
   left: 321px;
   z-index: 10;
-
 }
-/*---------------------service-slide-text---------------*/
-.service-block-slider img {
+
+
+.service-slide-delivery img {
   position: absolute;
-  bottom: -100px;
+  bottom: -97px;
   right: 0;
 }
+
+.service-slide-guarantee img {
+  position: absolute;
+  bottom: -97px;
+  right: -8px;
+}
+
+.service-slide-credit img {
+   position: absolute;
+  bottom: -97px;
+  right: -25px;
+}
+
 
 .btn-service-slide {
   position: absolute;
   box-sizing: border-box;
-  left: 310px;
-  top: 330px;
+ left: 321px;
+    top: 345px;
   margin-top: 25px;
-  padding: 10px 40px 10px 20px;
+padding-top: 12px;
   height: 40px;
-  width: 220px;
+  width: 195px;
   text-align: center;
   background: #ee3643;
   border-radius: 4px;
@@ -1446,6 +1461,10 @@ input[type="radio"]: + .service-block-label:hover {
 .btn-service-slide:active {
   background: #ba2732;
 }
+
+
+
+
 
 
 /*-----------------------------company-info----------------------*/
@@ -1486,6 +1505,7 @@ input[type="radio"]: + .service-block-label:hover {
 .company-about-delivery {
  margin-top: 5px;
   position: relative;
+      padding-left: 37px;
 }
 
 .company-about-delivery li {
@@ -1498,7 +1518,7 @@ position: relative;
 .company-about-delivery a {
   display: block;
   width: 160px;
-  padding-top: 9px;
+  padding-top: 10px;
   padding-bottom: 10px;
     font-size: 18px;
   line-height: 20px;
@@ -1514,18 +1534,19 @@ position: relative;
   height: 2px;
   background: #fb565a;
   position: absolute;
-  left: -40px;
+  left: -37px;
   top: 18px;
 }
 
 
 .company-about-delivery + a {
  box-sizing: border-box;
- display: block;
- margin-top: 28px;
- padding-top: 10px;
-  padding-bottom: 10px;
-   width: 220px;
+    display: block;
+    margin-top: 24px;
+    padding-top: 12px;
+width: 220px;
+    height: 40px;
+    text-align: center;
  text-align: center;
  background: #ee3643;
  border-radius: 4px;
@@ -1574,10 +1595,11 @@ position: relative;
  box-sizing: border-box;
  display: block;
     width: 300px;
-  margin-top: 35px;
- padding-top: 10px;
-  padding-bottom: 11px;
-    text-align: center;
+   height: 40px;
+       margin-top: 34px;
+    padding-top: 12px;
+    padding-left: 7px;
+        text-align: center;
  background: #ee3643;
  border-radius: 4px;
  text-decoration: none;
@@ -2533,7 +2555,7 @@ background: url(../img/icons-sprite-2.png) no-repeat;
 
 .filter-brands {
   border-bottom: 1px solid #e5e5e5;
-
+margin-bottom: 2px;
 }
 
 /*-----------------------------------------------------*/
@@ -2549,7 +2571,7 @@ background: url(../img/icons-sprite-2.png) no-repeat;
 
 .filter-brands span {
   margin-top: -8px;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 input[type="checkbox"] {
@@ -2575,7 +2597,7 @@ input[type="checkbox"] + .brands-label {
   position: relative;
   display: block;
   margin-left: 35px;
- margin-bottom: 22px;
+ margin-bottom: 21px;
    font-size: 15px;
   line-height: 20px;
   color: #000000;
@@ -2705,7 +2727,7 @@ input[type="radio"] {
 }
 
 .filter-source-title {
- padding-top: 12px
+ padding-top: 12px;
 }
 
 
