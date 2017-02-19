@@ -2865,15 +2865,20 @@ input[type="radio"]:checked + .source-label:disabled::after {
 
 
 
-/*catalog-product */
+/*catalog-product----------------------------------------------- */
 
 
 .catalog-product {
   width: 700px;
   float: right;
- /* margin: 20px auto;*/
   font-size: 0;
 }
+
+
+.catalog-product {
+
+}
+
 
 .product {
   position: relative;
