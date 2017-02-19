@@ -2192,12 +2192,12 @@ position: relative;
 
 }
 
-
+.sort-row .now-btn-up::before,
 .sort-row .btn-up:active::before  {
-
    border: 5px solid transparent;
   border-bottom: 10px solid #ee3643;
 }
+
 
 
 .sort-row .btn-down::after {
