@@ -8,32 +8,6 @@ body {
   background: #ffffff;
 }
 
-h2 {
-  font-size: 30px;
-  line-height: 30px;
-  color: #32425c;
-  font-weight: normal;
-  font-family: "Cuprum", "Arial", sans-serif;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 30px;
-  line-height: 30px;
-  color: #000000;
-  font-weight: normal;
-   font-family: "Cuprum", "Arial", sans-serif;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-  color: #000000;
-  font-weight: bold;
-  font-family: "PT Sans", "Arial", sans-serif;
-}
-
 .main-container {
   width: 940px;
   margin: 0 auto;
@@ -87,17 +61,6 @@ h4 {
   box-shadow: 0 5px 0 0 #8e1e26;
 }
 
-.sprite--icon-search {
-  width: 17px;
-  height: 17px;
-  background-position: -10px -441px;
-}
-
-.sprite--icon-search-red {
-  width: 17px;
-  height: 17px;
-  background-position: -10px -478px;
-}
 
 .menu-top-search input:focus {
   outline: none;
@@ -354,7 +317,7 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 24px;
 }
 
-div .menu-info-text {
+.menu-info-text {
   float: left;
   width: 300px;
 }
@@ -369,7 +332,7 @@ div .menu-info-text {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-div .menu-info-contacts {
+.menu-info-contacts {
   float: left;
   margin-left: 20px;
   margin-top: -20px;
@@ -632,7 +595,7 @@ div .menu-info-contacts {
 }
 
 
-/*---------------------------header-menu-nav--------------------------------------------------*/
+/*---------------------------header-menu-nav----------------------------------------*/
 
 .header-menu-nav {
   overflow: hidden;
@@ -840,11 +803,11 @@ div .menu-info-contacts {
   background-image: url("../img/icons-sprite-2.png");
 }
 
-.promo-slide-perforator {
+.promo-slide-1 {
   /*display: none;*/
 }
 
-.promo-slide-drill {
+.promo-slide-2 {
   display: none;
 }
 
@@ -887,8 +850,8 @@ div .menu-info-contacts {
   font-family: "PT Sans", "Arial", sans-serif;
 }
 
-.promo-slide-list .promo-slide-perforator a,
-.promo-slide-list .promo-slide-drill a {
+.promo-slide-list .promo-slide-1 a,
+.promo-slide-list .promo-slide-2 a {
   box-sizing: border-box;
   position: absolute;
   bottom: 27px;
@@ -1019,6 +982,12 @@ div .menu-info-contacts {
   width: 270px;
   margin-left: 25px;
   margin-top: 32px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: normal;
+  font-family: "Cuprum", "Arial", sans-serif;
+  text-transform: uppercase;
   text-align: center;
   vertical-align: top;
 }
@@ -1041,6 +1010,13 @@ div .menu-info-contacts {
   width: 380px;
   margin-left: 25px;
   margin-top: 31px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: normal;
+  font-family: "Cuprum", "Arial", sans-serif;
+  text-transform: uppercase;
+
 }
 
 .title-popular-brands a {
@@ -1586,11 +1562,11 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.connect-academy {
+.connect-developer {
   font-size: 0;
 }
 
-.mail-academy {
+.mail-developer {
   float: left;
   display: inline-block;
   margin-left: 120px;
@@ -1602,7 +1578,7 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.mail-academy p {
+.mail-developer p {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -1610,7 +1586,7 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.mail-academy a {
+.mail-developer a {
   display: inline-block;
   font-size: 16px;
   line-height: 18px;
@@ -1619,11 +1595,11 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.mail-academy a:active {
+.mail-developer a:active {
   color: #ee3643;
 }
 
-.link-academy {
+.link-developer {
   float: right;
   display: inline-block;
   margin-top: 25px;
@@ -1631,7 +1607,7 @@ input[type="radio"]:checked + .service-block-label:hover {
   font-size: 0;
 }
 
-.link-academy p {
+.link-developer p {
   font-size: 16px;
   line-height: 18px;
   font-weight: normal;
@@ -1640,7 +1616,7 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.link-academy a {
+.link-developer a {
   display: inline-block;
   font-size: 16px;
   line-height: 18px;
@@ -1650,7 +1626,7 @@ input[type="radio"]:checked + .service-block-label:hover {
    font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.link-academy a:active {
+.link-developer a:active {
   color: #ee3643;
 }
 
@@ -2521,7 +2497,7 @@ input[type="radio"]:checked + .source-label:disabled::after {
   border: 1px solid #ee3643;
 }
 
-.decsription {
+.page-decsription {
   box-sizing: border-box;
   height: 260px;
   margin-top: 30px;
@@ -2530,7 +2506,7 @@ input[type="radio"]:checked + .source-label:disabled::after {
   clear: both;
 }
 
-.decsription-text p {
+.page-decsription-text p {
   font-size: 13px;
   line-height: 24px;
   font-weight: normal;
@@ -2538,8 +2514,14 @@ input[type="radio"]:checked + .source-label:disabled::after {
   color: #000000;
 }
 
-.decsription-text h3 {
+.page-decsription-text h2 {
   padding-top: 32px;
+   font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: normal;
+   font-family: "Cuprum", "Arial", sans-serif;
+  text-transform: uppercase;
 }
 
 
@@ -2685,21 +2667,6 @@ input[type="radio"]:checked + .source-label:disabled::after {
   z-index: 5000;
 }
 
-.modal-write-us .write-us-fields {
-  padding: 0 80px;
-}
-
-.modal-write-us .left-col {
-  float: left;
-  width: 220px;
-  margin-right: 20px;
-}
-
-.modal-write-us .right-col {
-  float: right;
-  width: 220px;
-}
-
 .modal-write-us input[type="text"] {
   display: block;
   float: left;
@@ -2717,6 +2684,21 @@ input[type="radio"]:checked + .source-label:disabled::after {
   background-color: #ffffff;
   border: 2px solid #d7dcde;
   border-radius: 2px;
+}
+
+.modal-write-us .write-us-fields {
+  padding: 0 80px;
+}
+
+.modal-write-us .left-col {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.modal-write-us .right-col {
+  float: right;
+  width: 220px;
 }
 
 .modal-write-us textarea {
@@ -3392,4 +3374,16 @@ input[type="radio"]:checked + .source-label:disabled::after {
   width: 25px;
   height: 25px;
   background-position: -10px -493px;
+}
+
+.sprite--icon-search {
+  width: 17px;
+  height: 17px;
+  background-position: -10px -441px;
+}
+
+.sprite--icon-search-red {
+  width: 17px;
+  height: 17px;
+  background-position: -10px -478px;
 }
