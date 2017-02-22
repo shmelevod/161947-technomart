@@ -1,805 +1,806 @@
-body{     min-width:940px;       margin:0 auto;       font-size:18px;       line-height:24px;       color:#000;       font-weight:normal;       font-family:"PT Sans","Arial",sans-serif;       background:#fff}
+body{  min-width:940px;   margin:0 auto;   font-size:18px;   line-height:24px;   color:#000;   font-weight:normal;   font-family:"PT Sans","Arial",sans-serif;   background:#fff}
 
-.main-container{     width:940px;       margin:0 auto}
+.main-container{  width:940px;   margin:0 auto}
 
-.clearfix:after{     content:"";       display:table;       clear:both}
+.clearfix:after{  content:"";   display:table;   clear:both}
 
-.main-header{      padding-top:0;        padding-bottom:60px;        background-color:#f1f5f7}
+.main-header{  padding-top:0;   padding-bottom:60px;   background-color:#f1f5f7}
 
-.header-menu-top{      height:42px;        background-color:#293449}
+.header-menu-top{  height:42px;   background-color:#293449}
 
-.index-logo a{      display:block;        float:left;        width:220px;        padding-top:10px;          padding-bottom:9px;          font-size:24px;          line-height:24px;        font-weight:normal;        color:#fff;         font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase;        text-align:center;        text-decoration:none;        background:#ee3643;        box-shadow:0 5px 0 0 #b52933}
+.index-logo a{  display:block;   float:left;   width:220px;   padding-top:10px;   padding-bottom:9px;   font-size:24px;   line-height:24px;   font-weight:normal;   color:#fff;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   text-align:center;   text-decoration:none;   background:#ee3643;   box-shadow:0 5px 0 0 #b52933}
 
-.index-logo a:hover{      background-color:#ca2c37;        cursor:pointer;        box-shadow:0 5px 0 0 #9a212a}
+.index-logo a:hover{  background-color:#ca2c37;   cursor:pointer;   box-shadow:0 5px 0 0 #9a212a}
 
-.index-logo a:active{      background-color:#ba2732;        cursor:pointer;        box-shadow:0 5px 0 0 #8e1e26}
+.index-logo a:active{  background-color:#ba2732;   cursor:pointer;   box-shadow:0 5px 0 0 #8e1e26}
 
-.menu-top-search input:focus{      outline:none}
+.menu-top-search input:focus{  outline:none}
 
-.menu-top-search{      position:relative;        display:inline-block;        height:42px;        width:270px}
+.menu-top-search{  position:relative;   display:inline-block;   height:42px;   width:270px}
 
-.menu-top-search .icon-search{      display:block;        border:none;        position:absolute;        top:0.5px;        left:0;        width:42px;        height:41px;        background:#293449;        border:0}
+.menu-top-search .icon-search{  display:block;   border:none;   position:absolute;   top:0.5px;   left:0;   width:42px;   height:41px;   background:#293449;   border:0}
 
-.menu-top-search input[type="search"]{      padding-left:48px;        width:270px;        height:42px;        font-weight:normal;        font-size:17px;        line-height:18px;        color:#fff;         font-family:"Cuprum","Arial",sans-serif;        border:0;        background:#293449;        border:none}
+.menu-top-search input[type="search"]{  padding-left:48px;   width:270px;   height:42px;   font-weight:normal;   font-size:17px;   line-height:18px;   color:#fff;   font-family:"Cuprum","Arial",sans-serif;   border:0;   background:#293449;   border:none}
 
-.menu-top-search .icon-search::after{      content:"";        display:block;        position:absolute;        top:10px;        left:17px;        width:17px;        height:17px;        background-position:-11px -439px;        background-image:url("../img/icons-sprite-2.png");        opacity:0.3}
+.menu-top-search .icon-search::after{  content:"";   display:block;   position:absolute;   top:10px;   left:17px;   width:17px;   height:17px;   background-position:-11px -439px;   background-image:url("../img/icons-sprite-2.png");   opacity:0.3}
 
-.menu-top-search input:hover{      color:#fff;        background:#212a3a}
+.menu-top-search input:hover{  color:#fff;   background:#212a3a}
 
-.menu-top-search:hover .icon-search{      background:#212a3a}
+.menu-top-search:hover .icon-search{  background:#212a3a}
 
-.menu-top-search:hover .icon-search::after{      opacity:1}
+.menu-top-search:hover .icon-search::after{  opacity:1}
 
-.menu-top-search input:hover ~ .icon-search:hover::after{      opacity:1}
+.menu-top-search input:hover ~ .icon-search:hover::after{  opacity:1}
 
-.icon-search:focus::after{      content:"";        position:absolute;        top:12px;        left:12px;        width:17px;        height:17px;        background-position:-10px -476px;        background-image:url("../img/icons-sprite-2.png");        opacity:1}
+.icon-search:focus::after{  content:"";   position:absolute;   top:12px;   left:12px;   width:17px;   height:17px;   background-position:-10px -476px;   background-image:url("../img/icons-sprite-2.png");   opacity:1}
 
-.menu-top-search input:focus{      color:#000;        background:#fff;        border:0;        outline:none}
+.menu-top-search input:focus{  color:#000;   background:#fff;   border:0;   outline:none}
 
-.menu-top-search input:focus ~ .icon-search{      background:#fff;        border:0}
+.menu-top-search input:focus ~ .icon-search{  background:#fff;   border:0}
 
-.menu-top-search input:focus ~ .icon-search::after{      background-position:-11px -476px;        background-image:url("../img/icons-sprite-2.png");       opacity:1;       border:0}
+.menu-top-search input:focus ~ .icon-search::after{  background-position:-11px -476px;   background-image:url("../img/icons-sprite-2.png");   opacity:1;   border:0}
 
-.menu-top-search input::-webkit-input-placeholder{     color:#fff}
+.menu-top-search input::-webkit-input-placeholder{  color:#fff}
 
-.menu-top-search input::-moz-placeholder{     color:#fff;       opacity:1}
+.menu-top-search input::-moz-placeholder{  color:#fff;   opacity:1}
 
-.menu-top-search:-ms-input-placeholder{     color:#fff;       opacity:1}
+.menu-top-search:-ms-input-placeholder{  color:#fff;   opacity:1}
 
-.menu-top-search input:focus::-webkit-input-placeholder{     color:#000}
+.menu-top-search input:focus::-webkit-input-placeholder{  color:#000}
 
-.menu-top-search input:focus::-moz-placeholder{     opacity:1;       color:#000}
+.menu-top-search input:focus::-moz-placeholder{  opacity:1;   color:#000}
 
-.menu-top-search input:focus:-ms-input-placeholder{     opacity:1;       color:#000}
+.menu-top-search input:focus:-ms-input-placeholder{  opacity:1;   color:#000}
 
-.menu-top-search input::-ms-clear{     display:none}
+.menu-top-search input::-ms-clear{  display:none}
 
-.menu-order-info{     float:right;       width:450px;       box-sizing:border-box;       font-size:0}
+.menu-order-info{  float:right;   width:450px;   box-sizing:border-box;   font-size:0}
 
-.menu-order-info a{     display:inline-block;       box-sizing:border-box;       width:150px;       font-size:17px;       line-height:42px;       color:#fff;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-align:center;       text-decoration:none;       vertical-align:top}
+.menu-order-info a{  display:inline-block;   box-sizing:border-box;   width:150px;   font-size:17px;   line-height:42px;   color:#fff;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-align:center;   text-decoration:none;   vertical-align:top}
 
-.menu-top-bookmarks{     position:relative;       padding-left:18px}
+.menu-top-bookmarks{  position:relative;   padding-left:18px}
 
-.menu-top-bookmarks::before{      content:"";        position:absolute;        left:16px;        top:13px;        width:14px;        height:16px;        background-image:url("../img/icons-sprite-2.png");        background-position:-10px -817px;        opacity:0.3}
+.menu-top-bookmarks::before{  content:"";   position:absolute;   left:16px;   top:13px;   width:14px;   height:16px;   background-image:url("../img/icons-sprite-2.png");   background-position:-10px -817px;   opacity:0.3}
 
-.menu-top-bookmarks:hover{      background-color:#212a3a;        cursor:pointer}
+.menu-top-bookmarks:hover{  background-color:#212a3a;   cursor:pointer}
 
-.menu-top-bookmarks:active{      background-color:#161d29;        color:#fff}
+.menu-top-bookmarks:active{  background-color:#161d29;   color:#fff}
 
-.menu-top-bookmarks:hover::before{      opacity:1}
+.menu-top-bookmarks:hover::before{  opacity:1}
 
-.menu-top-bookmarks:active::before{      opacity:0.3}
+.menu-top-bookmarks:active::before{  opacity:0.3}
 
-.menu-top-cart{      padding-left:18px;        position:relative}
+.menu-top-cart{  padding-left:18px;   position:relative}
 
-.menu-top-cart::before{      content:"";        display:block;        position:absolute;        left:17px;        top:10px;        width:17px;        height:16px;        background-position:-12px -6px;        background-image:url("../img/icons-sprite-2.png");       opacity:0.3}
+.menu-top-cart::before{  content:"";   display:block;   position:absolute;   left:17px;   top:10px;   width:17px;   height:16px;   background-position:-12px -6px;   background-image:url("../img/icons-sprite-2.png");   opacity:0.3}
 
 .menu-top-bookmarks:hover,
-.menu-top-cart:hover{     cursor:pointer;       background-color:#212a3a}
+.menu-top-cart:hover{  cursor:pointer;   background-color:#212a3a}
 
 .menu-top-cart:active,
-.menu-top-bookmarks:active{     background-color:#161d29;       color:rgba(255,255,255,0.6)}
+.menu-top-bookmarks:active{  background-color:#161d29;   color:rgba(255,255,255,0.6)}
 
-.menu-top-cart:hover::before{     opacity:1}
+.menu-top-cart:hover::before{  opacity:1}
 
-.menu-top-cart:active::before{     opacity:0.3}
+.menu-top-cart:active::before{  opacity:0.3}
 
-.menu-order-info a.cart-full{     background-color:#ee3643}
+.menu-order-info a.cart-full{  background-color:#ee3643}
 
-.menu-top-order{     background:#63a63e}
+.menu-top-order{  background:#63a63e}
 
-.menu-top-order:hover{     cursor:pointer;       background-color:#5fbb2d}
+.menu-top-order:hover{  cursor:pointer;   background-color:#5fbb2d}
 
-.menu-top-order:active{     background-color:#518534;       color:#b7c9af}
+.menu-top-order:active{  background-color:#518534;   color:#b7c9af}
 
-.header-menu-midlle{      box-sizing:border-box;        padding-top:45px;        padding-bottom:24px}
+.header-menu-midlle{  box-sizing:border-box;   padding-top:45px;   padding-bottom:24px}
 
-.menu-info-text{      float:left;        width:210px;        margin-left:52px}
+.menu-info-text{  float:left;   width:210px;   margin-left:52px}
 
-.menu-info-text p{        margin-top:4px;        font-size:16px;        line-height:23px;        font-style:italic;        color:#ee3643;         font-family:"Cuprum","Arial",sans-serif}
+.menu-info-text p{  margin-top:4px;   font-size:16px;   line-height:23px;   font-style:italic;   color:#ee3643;   font-family:"Cuprum","Arial",sans-serif}
 
-.menu-info-contacts{      float:left;        margin-left:58px;        margin-top:-20px;        width:270px}
+.menu-info-contacts{  float:left;   margin-left:58px;   margin-top:-20px;   width:270px}
 
-.menu-info-phone{      position:relative;        box-sizing:border-box;        width:270px;        padding-top:11px;        padding-bottom:10px;        padding-left:71px;        font-size:21px;        font-style:normal;        line-height:18px;        color:#e9292a;         font-family:"Cuprum","Arial",sans-serif;        border:3px solid #fff}
+.menu-info-phone{  position:relative;   box-sizing:border-box;   width:270px;   padding-top:11px;   padding-bottom:10px;   padding-left:71px;   font-size:21px;   font-style:normal;   line-height:18px;   color:#e9292a;   font-family:"Cuprum","Arial",sans-serif;   border:3px solid #fff}
 
-.menu-info-phone-icon::before{      content:"";        display:block;        position:absolute;        top:12px;        left:12px;        width:19px;        height:19px;        background-image:url("../img/icons-sprite-2.png");        background-position:-10px -1276px}
+.menu-info-phone-icon::before{  content:"";   display:block;   position:absolute;   top:12px;   left:12px;   width:19px;   height:19px;   background-image:url("../img/icons-sprite-2.png");   background-position:-10px -1276px}
 
-.menu-info-adress{      width:270px;        margin-top:-16px;        font-size:14px;        line-height:24px;        font-style:normal;        color:#32425c;        font-family:"Cuprum","Arial",sans-serif;        text-align:center}
+.menu-info-adress{  width:270px;   margin-top:-16px;   font-size:14px;   line-height:24px;   font-style:normal;   color:#32425c;   font-family:"Cuprum","Arial",sans-serif;   text-align:center}
 
-.user-block{      float:right;        vertical-align:top}
+.user-block{  float:right;   vertical-align:top}
 
-.user-block .login{      position:relative;        display:inline-block;        box-sizing:border-box;        width:120px;        padding-top:14px;        padding-left:20px;        margin-right:5px;        height:45px;        color:#000;        font-size:21px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        text-align:center;        background:#fff;        text-decoration:none;        vertical-align:top;        cursor:pointer}
+.user-block .login{  position:relative;   display:inline-block;   box-sizing:border-box;   width:120px;   padding-top:14px;   padding-left:20px;   margin-right:5px;   height:45px;   color:#000;   font-size:21px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   text-align:center;   background:#fff;   text-decoration:none;   vertical-align:top;   cursor:pointer}
 
-.user-block .login-icon::before{      content:"";        display:block;        position:absolute;        left:13px;        top:15px;        width:20px;        height:17px;        background-position:-10px -651px;        background-image:url("../img/icons-sprite-2.png")}
+.user-block .login-icon::before{  content:"";   display:block;   position:absolute;   left:13px;   top:15px;   width:20px;   height:17px;   background-position:-10px -651px;   background-image:url("../img/icons-sprite-2.png")}
 
-.user-block .login-icon:hover::before{      content:"";        display:block;        position:absolute;        left:13px;        top:15px;        width:20px;        height:17px;        background-image:url("../img/icons-sprite-2.png");        background-position:-10px -241px}
+.user-block .login-icon:hover::before{  content:"";   display:block;   position:absolute;   left:13px;   top:15px;   width:20px;   height:17px;   background-image:url("../img/icons-sprite-2.png");   background-position:-10px -241px}
 
-.user-block .login:hover{      color:#ee3643}
+.user-block .login:hover{  color:#ee3643}
 
-.user-block .login-icon:active::before{      opacity:0.3}
+.user-block .login-icon:active::before{  opacity:0.3}
 
-.user-block .login:active{      color:#cacaca}
+.user-block .login:active{  color:#cacaca}
 
-.user-block .registration{      display:inline-block;        box-sizing:border-box;        width:150px;        height:45px;        padding:13px 25px;        color:#000;        font-size:21px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        background:#fff;        text-decoration:none;        vertical-align:top}
+.user-block .registration{  display:inline-block;   box-sizing:border-box;   width:150px;   height:45px;   padding:13px 25px;   color:#000;   font-size:21px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   background:#fff;   text-decoration:none;   vertical-align:top}
 
-.user-block .registration:hover{      color:#ee3643}
+.user-block .registration:hover{  color:#ee3643}
 
-.user-block .registration:active{      color:#cacaca}
+.user-block .registration:active{  color:#cacaca}
 
-.user-block-info{        width:300px;        margin-left:10px}
+.user-block-info{  width:300px;   margin-left:10px}
 
-.user-field{      position:relative;        margin-bottom:5px;        padding-bottom:8px;        padding-top:12px;        text-align:center;        background-color:#fff}
-.user-field .user-name{      padding-right:18px;        font-size:21px;        line-height:18px;        font-family:"Cuprum","Arial",sans-serif;        color:#000;        text-decoration:none}
+.user-field{  position:relative;   margin-bottom:5px;   padding-bottom:8px;   padding-top:12px;   text-align:center;   background-color:#fff}
+
+.user-field .user-name{  padding-right:18px;   font-size:21px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#000;   text-decoration:none}
 
 .btn-my-orders,
-.btn-personal-page{      position:relative;        display:inline-block;        margin-left:18px;        margin-right:11px;        font-size:16px;        line-height:18px;        color:#32425c;        text-align:center;         font-family:"Cuprum","Arial",sans-serif;        text-decoration:none}
+.btn-personal-page{  position:relative;   display:inline-block;   margin-left:18px;   margin-right:11px;   font-size:16px;   line-height:18px;   color:#32425c;   text-align:center;   font-family:"Cuprum","Arial",sans-serif;   text-decoration:none}
 
-.btn-my-orders::after{      content:"";        position:absolute;        top:7px;        left:90px;        width:4px;        height:4px;        border-radius:50%;        background:#32425c}
+.btn-my-orders::after{  content:"";   position:absolute;   top:7px;   left:90px;   width:4px;   height:4px;   border-radius:50%;   background:#32425c}
 
 .btn-my-orders:hover,
-.btn-personal-page:hover{      color:#ee3643}
+.btn-personal-page:hover{  color:#ee3643}
 
 .btn-my-orders:active,
-.btn-personal-page:active{      color:rgba(0,0,0,0.3)}
+.btn-personal-page:active{  color:rgba(0,0,0,0.3)}
 
-.user-field .user-name:active{      color:rgba(0,0,0,0.3)}
+.user-field .user-name:active{  color:rgba(0,0,0,0.3)}
 
- .user-log-out::after{      content:"";        position:absolute;        top:14px;        right:10px;        width:21px;        height:17px;        background-position:-10px -278px;        background-image:url("../img/icons-sprite-2.png");        cursor:pointer}
+.user-log-out::after{  content:"";   position:absolute;   top:14px;   right:10px;   width:21px;   height:17px;   background-position:-10px -278px;   background-image:url("../img/icons-sprite-2.png");   cursor:pointer}
 
-.user-log-out:hover::after{      content:"";        position:absolute;        top:14px;        right:10px;        width:21px;        height:17px;        background-position:-49px -241px;        background-image:url("../img/icons-sprite-2.png")}
+.user-log-out:hover::after{  content:"";   position:absolute;   top:14px;   right:10px;   width:21px;   height:17px;   background-position:-49px -241px;   background-image:url("../img/icons-sprite-2.png")}
 
-.user-log-out:active::after{      content:"";        position:absolute;        top:14px;        right:10px;        width:21px;        height:17px;        background-position:-10px -278px;        background-image:url("../img/icons-sprite-2.png");        opacity:0.6}
+.user-log-out:active::after{  content:"";   position:absolute;   top:14px;   right:10px;   width:21px;   height:17px;   background-position:-10px -278px;   background-image:url("../img/icons-sprite-2.png");   opacity:0.6}
 
- .user-field .user-name::before{      content:"";        position:absolute;        top:13px;        left:13px;        width:20px;        height:18px;        background-position:-10px -581px;        background-image:url("../img/icons-sprite-2.png");        cursor:pointer}
+.user-field .user-name::before{  content:"";   position:absolute;   top:13px;   left:13px;   width:20px;   height:18px;   background-position:-10px -581px;   background-image:url("../img/icons-sprite-2.png");   cursor:pointer}
 
- .user-field .user-name:hover::before{      content:"";        position:absolute;        top:13px;        left:13px;        width:20px;        height:18px;        background-position:-10px -543px;        background-image:url("../img/icons-sprite-2.png")}
+.user-field .user-name:hover::before{  content:"";   position:absolute;   top:13px;   left:13px;   width:20px;   height:18px;   background-position:-10px -543px;   background-image:url("../img/icons-sprite-2.png")}
 
-.user-field .user-name:active::before{      content:"";        position:absolute;        top:13px;        left:13px;        width:20px;        height:18px;        background-position:-10px -581px;        background-image:url("../img/icons-sprite-2.png");       opacity:0.6}
+.user-field .user-name:active::before{  content:"";   position:absolute;   top:13px;   left:13px;   width:20px;   height:18px;   background-position:-10px -581px;   background-image:url("../img/icons-sprite-2.png");   opacity:0.6}
 
-.header-menu-nav{     overflow:hidden}
+.header-menu-nav{  overflow:hidden}
 
-.header-menu-navigation{     min-height:55px;       box-sizing:border-box;       font-size:0;       line-height:0;       text-align:center;       background-color:#32425c;       border-bottom:3px solid #293449}
+.header-menu-navigation{  min-height:55px;   box-sizing:border-box;   font-size:0;   line-height:0;   text-align:center;   background-color:#32425c;   border-bottom:3px solid #293449}
 
-.header-menu-navigation ul{     padding:0;       margin:0;       list-style:none}
+.header-menu-navigation ul{  padding:0;   margin:0;   list-style:none}
 
-.header-menu-navigation li{     display:inline-block;       vertical-align:top}
+.header-menu-navigation li{  display:inline-block;   vertical-align:top}
 
-.header-menu-navigation a{     display:block;       padding:20px 31px 20px 29px;       font-size:17px;       line-height:17px;       font-weight:normal;       font-style:normal;       font-family:"Cuprum","Arial",sans-serif;       text-decoration:none;       color:#fff}
+.header-menu-navigation a{  display:block;   padding:20px 31px 20px 29px;   font-size:17px;   line-height:17px;   font-weight:normal;   font-style:normal;   font-family:"Cuprum","Arial",sans-serif;   text-decoration:none;   color:#fff}
 
-.header-menu-navigation a:hover{     background:#293449}
+.header-menu-navigation a:hover{  background:#293449}
 
-.header-menu-navigation a:active{     background:#1d2739;       color:#a8abaf}
+.header-menu-navigation a:active{  background:#1d2739;   color:#a8abaf}
 
-.promo{      box-sizing:border-box;        position:relative;        width:940px;        padding-top:60px;        margin-bottom:31px}
+.promo{  box-sizing:border-box;   position:relative;   width:940px;   padding-top:60px;   margin-bottom:31px}
 
-.promo-material{      background:#f6b22d}
+.promo-material{  background:#f6b22d}
 
-.promo-tool{      background:#4aafde}
+.promo-tool{  background:#4aafde}
 
-.promo-techniс{      background:#cc79d1}
+.promo-techniс{  background:#cc79d1}
 
-.promo-discount{      background:#85d179}
+.promo-discount{  background:#85d179}
 
-.promo-delivery{      background:#f6b22d}
+.promo-delivery{  background:#f6b22d}
 
-.promo-item{      width:300px;        height:123px;        float:left;        margin-right:20px;        margin-bottom:20px}
+.promo-item{  width:300px;   height:123px;   float:left;   margin-right:20px;   margin-bottom:20px}
 
- .promo-techniс,
+.promo-techniс,
 .promo-discount,
-.promo-delivery{      margin-right:0}
+.promo-delivery{  margin-right:0}
 
-.promo-slider{      width:620px;        height:266px}
+.promo-slider{  width:620px;   height:266px}
 
-.promo-item span{      display:inline-block;        margin-top:20px;        margin-left:23px;        font-size:24px;        line-height:30px;        font-weight:bold;         font-family:"Cuprum","Arial",sans-serif;        color:#fff;        vertical-align:top}
+.promo-item span{  display:inline-block;   margin-top:20px;   margin-left:23px;   font-size:24px;   line-height:30px;   font-weight:bold;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   vertical-align:top}
 
-.promo-item a{      display:block;        padding-top:10px;        padding-bottom:10px;        margin-left:24px;        margin-top:13px;        width:135px;        font-size:14px;        line-height:18px;        font-weight:normal;        text-transform:uppercase;         font-family:"Cuprum","Arial",sans-serif;        text-align:center;        vertical-align:top;        color:#fff;        text-decoration:none;        background:#e5e5e5;        background:rgba(0,0,0,0.1);        border-radius:2px}
+.promo-item a{  display:block;   padding-top:10px;   padding-bottom:10px;   margin-left:24px;   margin-top:13px;   width:135px;   font-size:14px;   line-height:18px;   font-weight:normal;   text-transform:uppercase;   font-family:"Cuprum","Arial",sans-serif;   text-align:center;   vertical-align:top;   color:#fff;   text-decoration:none;   background:#e5e5e5;   background:rgba(0,0,0,0.1);   border-radius:2px}
 
-.promo-item a:hover{      background:rgba(0,0,0,0.2)}
+.promo-item a:hover{  background:rgba(0,0,0,0.2)}
 
-.promo-item a:active{      background:rgba(0,0,0,0.3)}
+.promo-item a:active{  background:rgba(0,0,0,0.3)}
 
-.promo-material::after{      content:"";        display:block;        position:absolute;        top:91px;        left:212px;        width:44px;        height:65px;        background-position:-10px -1028px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-material::after{  content:"";   display:block;   position:absolute;   top:91px;   left:212px;   width:44px;   height:65px;   background-position:-10px -1028px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-material::before{      content:"";        display:block;        position:absolute;        top:60px;        left:240px;        width:60px;        height:59px;        background-position:-77px -551px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-material::before{  content:"";   display:block;   position:absolute;   top:60px;   left:240px;   width:60px;   height:59px;   background-position:-77px -551px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-tool::after{      content:"";        display:block;        position:absolute;        top:93px;        right:349px;        width:75px;        height:61px;        background-position:-10px -1195px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-tool::after{  content:"";   display:block;   position:absolute;   top:93px;   right:349px;   width:75px;   height:61px;   background-position:-10px -1195px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-techniс::after{      content:"";        display:block;        position:absolute;        top:91px;        right:32px;        width:78px;        height:62px;        background-position:-10px -1113px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-techniс::after{  content:"";   display:block;   position:absolute;   top:91px;   right:32px;   width:78px;   height:62px;   background-position:-10px -1113px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-discount::after{      content:"";        display:block;        position:absolute;        top:230px;        right:45px;        width:59px;        height:72px;        background-position:-10px -936px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-discount::after{  content:"";   display:block;   position:absolute;   top:230px;   right:45px;   width:59px;   height:72px;   background-position:-10px -936px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-delivery::after{      content:"";        display:block;        position:absolute;        top:378px;        right:32px;        width:78px;        height:63px;        background-position:-10px -853px;        background-image:url("../img/icons-sprite-2.png")}
+.promo-delivery::after{  content:"";   display:block;   position:absolute;   top:378px;   right:32px;   width:78px;   height:63px;   background-position:-10px -853px;   background-image:url("../img/icons-sprite-2.png")}
 
-.promo-slide-1{}
+.promo-slide-1{ }
 
-.promo-slide-2{      display:none}
+.promo-slide-2{  display:none}
 
-.promo-slide-list{      position:relative;        width:620px;        height:266px}
+.promo-slide-list{  position:relative;   width:620px;   height:266px}
 
-.promo-slide{      position:absolute;        top:0;        left:0}
+.promo-slide{  position:absolute;   top:0;   left:0}
 
-.promo-slide-text{      position:absolute;        left:0;        top:-11px;        width:240px;        padding-left:24px}
+.promo-slide-text{  position:absolute;   left:0;   top:-11px;   width:240px;   padding-left:24px}
 
-.promo-slide-text h3{      margin-bottom:-14px;        font-size:36px;        line-height:30px;        color:#fff;        font-weight:bold;         font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase}
+.promo-slide-text h3{  margin-bottom:-14px;   font-size:36px;   line-height:30px;   color:#fff;   font-weight:bold;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.promo-slide-text p{      padding-left:0;        font-size:18px;        line-height:24px;        font-weight:normal;        color:#fff;        font-family:"PT Sans","Arial",sans-serif}
+.promo-slide-text p{  padding-left:0;   font-size:18px;   line-height:24px;   font-weight:normal;   color:#fff;   font-family:"PT Sans","Arial",sans-serif}
 
 .promo-slide-1 a,
- .promo-slide-2 a{      box-sizing:border-box;        position:absolute;        bottom:27px;        height:40px;        width:195px;        margin-right:25px;        padding-top:12px;        padding-left:7px;        text-align:center;        border-radius:5px;        text-decoration:none;        font-size:14px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        color:#fff;        text-transform:uppercase;        background:#ee3643}
+.promo-slide-2 a{  box-sizing:border-box;   position:absolute;   bottom:27px;   height:40px;   width:195px;   margin-right:25px;   padding-top:12px;   padding-left:7px;   text-align:center;   border-radius:5px;   text-decoration:none;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-transform:uppercase;   background:#ee3643}
 
 .promo-slide-1 a:hover,
-.promo-slide-2 a:hover{      background:#ca2c37}
+.promo-slide-2 a:hover{  background:#ca2c37}
 
 .promo-slide-1 a:active,
-.promo-slide-2 a:active{      background:#ba2732}
+.promo-slide-2 a:active{  background:#ba2732}
 
-.promo-slider-prev::after{      content:"";        position:absolute;        bottom:133px;        left:23px;        width:22px;        height:40px;        background-position:-10px -183px;        background-image:url("../img/icons-sprite-2.png");        cursor:pointer}
+.promo-slider-prev::after{  content:"";   position:absolute;   bottom:133px;   left:23px;   width:22px;   height:40px;   background-position:-10px -183px;   background-image:url("../img/icons-sprite-2.png");   cursor:pointer}
 
-.promo-slider-next::after{      content:"";        position:absolute;        bottom:133px;        left:577px;        width:22px;        height:40px;        background-position:-10px -317px;        background-image:url("../img/icons-sprite-2.png");       cursor:pointer}
+.promo-slider-next::after{  content:"";   position:absolute;   bottom:133px;   left:577px;   width:22px;   height:40px;   background-position:-10px -317px;   background-image:url("../img/icons-sprite-2.png");   cursor:pointer}
 
-.promo-slider-controls{     position:absolute;       bottom:43px;       left:294px}
+.promo-slider-controls{  position:absolute;   bottom:43px;   left:294px}
 
-.promo-slider-controls label{     display:inline-block;       width:6px;       height:6px;       margin-right:7px;       vertical-align:top;       background-color:#fff;       border:2px solid #fff;       border-radius:50%;       cursor:pointer;       vertical-align:top}
-.promo-slider-nav input[type="radio"]{  display:none}
+.promo-slider-controls label{  display:inline-block;   width:6px;   height:6px;   margin-right:7px;   vertical-align:top;   background-color:#fff;   border:2px solid #fff;   border-radius:50%;   cursor:pointer;   vertical-align:top}
 
-.promo-slide-list input[type=radio]{     position:absolute;       opacity:0}
+.promo-slide-1{  background:url("../img/slider-perfor.jpg") no-repeat center}
 
-#btn-1:checked ~ .promo-slider-controls label[for="btn-1"],
-#btn-2:checked ~ .promo-slider-controls label[for="btn-2"]{     background-color:#ee3643}
+.promo-slide-2{  background:url("../img/slider-2-drill.jpg") no-repeat center}
 
-#btn-1:checked ~ .promo-slide-list slide1{     display:block}
+.promo-slider-nav input[type="radio"]{ display:none}
 
-#btn-2:checked ~ .promo-slide-list slide2{     display:block}
+.promo-slide-list input[type="radio"]{ position:absolute;  opacity:0}
 
-.promo-slider-controls label:first-child{     background-color:#ee3643}
+.promo-slider-nav.btn-1 input[type=radio]:checked ~ .promo-slider-controls label,
+.promo-slider-nav.btn-2 input[type=radio]:checked ~ .promo-slider-controls label{ background-color:#ee3643}
 
-.popular-products .product:nth-of-type(4){     margin-right:0}
+.promo-slider-controls label:first-child{  background-color:#ee3643}
 
-.popular-products .product{     min-height:315px}
+.popular-products .product:nth-of-type(4){  margin-right:0}
 
-.popular-products{     box-sizing:border-box;       width:940px;       font-size:0}
+.popular-products .product{  min-height:315px}
 
-.title-popular-products{     height:90px;       margin-bottom:20px;       background:#f7f3ec}
+.popular-products{  box-sizing:border-box;   width:940px;   font-size:0}
 
-.title-popular-products a{     box-sizing:border-box;       margin-top:25px;       height:40px;       float:right;       margin-right:26px;       padding-top:12px;       padding-bottom:10px;       width:250px;       text-align:center;       vertical-align:top;       background:#ee3643;       border-radius:4px;       text-decoration:none;       font-size:14px;       line-height:18px;       font-family:"Cuprum","Arial",sans-serif;       color:#fff;       text-transform:uppercase}
+.title-popular-products{  height:90px;   margin-bottom:20px;   background:#f7f3ec}
 
-.title-popular-products h2{     display:inline-block;       width:270px;       margin-left:25px;       margin-top:32px;       font-size:30px;       line-height:30px;       color:#32425c;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase;       text-align:center;       vertical-align:top}
+.title-popular-products a{  box-sizing:border-box;   margin-top:25px;   height:40px;   float:right;   margin-right:26px;   padding-top:12px;   padding-bottom:10px;   width:250px;   text-align:center;   vertical-align:top;   background:#ee3643;   border-radius:4px;   text-decoration:none;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-transform:uppercase}
 
-.title-popular-products a:hover{     background:#ca2c37}
+.title-popular-products h2{  display:inline-block;   width:270px;   margin-left:25px;   margin-top:32px;   font-size:30px;   line-height:30px;   color:#32425c;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   text-align:center;   vertical-align:top}
 
-.title-popular-products a:active{     background:#ba2732}
+.title-popular-products a:hover{  background:#ca2c37}
 
-.title-popular-brands{     margin-bottom:22px;       background:#f7f3ec}
+.title-popular-products a:active{  background:#ba2732}
 
-.title-popular-brands h2{     display:inline-block;       width:380px;       margin-left:25px;       margin-top:31px;       font-size:30px;       line-height:30px;       color:#32425c;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase;      vertical-align:top}
+.title-popular-brands{  margin-bottom:22px;   background:#f7f3ec}
 
-.title-popular-brands a{     box-sizing:border-box;       float:right;       height:40px;       width:250px;       margin-top:25px;       margin-right:26px;       padding-top:11px;       font-size:14px;       line-height:18px;       font-family:"Cuprum","Arial",sans-serif;       color:#fff;       text-align:center;       background:#ee3643;       border-radius:4px;       text-decoration:none;       text-transform:uppercase}
+.title-popular-brands h2{  display:inline-block;   width:380px;   margin-left:25px;   margin-top:31px;   font-size:30px;   line-height:30px;   color:#32425c;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   vertical-align:top}
 
-.title-popular-brands a:hover{     background:#ca2c37}
+.title-popular-brands a{  box-sizing:border-box;   float:right;   height:40px;   width:250px;   margin-top:25px;   margin-right:26px;   padding-top:11px;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-align:center;   background:#ee3643;   border-radius:4px;   text-decoration:none;   text-transform:uppercase}
 
-.title-popular-brands a:active{     background:#ba2732}
+.title-popular-brands a:hover{  background:#ca2c37}
 
-.popular-brands{     margin-bottom:120px}
+.title-popular-brands a:active{  background:#ba2732}
 
-.title-popular-brands{     height:90px;       margin-bottom:20px}
+.popular-brands{  margin-bottom:120px}
 
-.popular-brands-list a{     float:left;       display:-webkit-box;       display:-ms-flexbox;       display:flex;       -webkit-box-pack:center;       -ms-flex-pack:center;       justify-content:center;       -webkit-box-align:center;       -ms-flex-align:center;       align-items:center;       width:218px;       height:143px;       margin-right:20px;       margin-bottom:20px;       border:1px solid #e5e5e5}
+.title-popular-brands{  height:90px;   margin-bottom:20px}
 
-.popular-brands{     margin-bottom:65px}
+.popular-brands-list a{  float:left;   display:-webkit-box;   display:-ms-flexbox;   display:flex;   -webkit-box-pack:center;   -ms-flex-pack:center;   justify-content:center;   -webkit-box-align:center;   -ms-flex-align:center;   align-items:center;   width:218px;   height:143px;   margin-right:20px;   margin-bottom:20px;   border:1px solid #e5e5e5}
 
-.popular-brands-list a:nth-of-type(4),
-.popular-brands-list a:nth-of-type(8){     margin-right:0}
+.popular-brands{  margin-bottom:65px}
 
-.popular-brands-list a:hover{     box-shadow:0 10px 25px rgba(41,52,73,0.5)}
+.popular-brands-list a:nth-child(4n){  margin-right:0}
 
-.popular-brands-list a:active{     opacity:0.3}
+.popular-brands-list a:hover{  box-shadow:0 10px 25px rgba(41,52,73,0.5)}
 
-.service-block-bottom{      height:520px;        margin-bottom:50px;        position:relative;        background:#f2f6f8}
+.popular-brands-list a:active{  opacity:0.3}
 
-.service-block-bottom .main-container{      position:relative}
+.service-block-bottom{  height:520px;   margin-bottom:50px;   position:relative;   background:#f2f6f8}
 
-.service-block-bottom h3{      padding-top:66px;        margin-bottom:32px;        font-size:30px;        line-height:24px;        color:#000;        font-weight:normal;         font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase}
+.service-block-bottom .main-container{  position:relative}
 
-.service-block-decs{      width:410px;        margin-bottom:70px;        font-size:13px;        line-height:24px;        font-weight:normal;        color:#000;        font-family:"PT Sans","Arial",sans-serif}
+.service-block-bottom h3{  padding-top:66px;   margin-bottom:32px;   font-size:30px;   line-height:24px;   color:#000;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.service-block-list{      position:relative;        width:240px;        height:184px}
+.service-block-decs{  width:410px;   margin-bottom:70px;   font-size:13px;   line-height:24px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.service-block-list .service-block-label{      display:block;        padding-top:13px;        padding-bottom:16px;        padding-left:22px;        font-size:21px;        line-height:30px;        font-weight:bold;        color:#fff;         font-family:"Cuprum","Arial",sans-serif;        background:#32425c;        border-top:1px solid #405069;        border-bottom:1px solid #293449;        cursor:pointer}
+.service-block-list{  position:relative;   width:240px;   height:184px}
+
+.service-block-list .service-block-label{  display:block;   padding-top:13px;   padding-bottom:16px;   padding-left:22px;   font-size:21px;   line-height:30px;   font-weight:bold;   color:#fff;   font-family:"Cuprum","Arial",sans-serif;   background:#32425c;   border-top:1px solid #405069;   border-bottom:1px solid #293449;   cursor:pointer}
+
 .service-block-list input[type="radio"]{  display:none}
 
-input[type="radio"]:checked+.service-block-label{      color:#32425c;        background:#fff;        border-top:1px solid #fff;        border-bottom:1px solid #fff}
+input[type="radio"]:checked+.service-block-label{  color:#32425c;   background:#fff;   border-top:1px solid #fff;   border-bottom:1px solid #fff}
 
-input[type="radio"]:checked+.service-block-label:hover{      color:#32425c;        background:#293449;        border-top:1px solid #405069;        border-bottom:1px solid #293449}
+input[type="radio"]:checked+.service-block-label:hover{  color:#32425c;   background:#293449;   border-top:1px solid #405069;   border-bottom:1px solid #293449}
 
-.service-block-list::after{      content:"";        display:block;        position:absolute;        top:-40px;        left:230px;        width:10px;        height:272px;        background-position:-10px -1352px;        background-image:url("../img/icons-sprite-2.png")}
+.service-block-list::after{  content:"";   display:block;   position:absolute;   top:-40px;   left:230px;   width:10px;   height:272px;   background-position:-10px -1352px;   background-image:url("../img/icons-sprite-2.png")}
 
-.service-block-list .service-block-label:first-child{     background:#fff;       color:#000;       border:none}
+.service-block-list .service-block-label:first-child{  background:#fff;   color:#000;   border:none}
 
 .service-slide-delivery{}
 
-.service-slide-guarantee{     display:none}
+.service-slide-guarantee{  display:none}
 
-.service-slide-credit{     display:none}
+.service-slide-credit{  display:none}
 
-.service-block-slider span{     display:block;       margin-bottom:33px;       font-size:36px;       line-height:24px;       color:#32425c;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase}
+.service-block-slider span{  display:block;   margin-bottom:33px;   font-size:36px;   line-height:24px;   color:#32425c;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.service-slide-delivery p{     width:275px;       font-size:13px;       line-height:24px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif}
+.service-slide-delivery p{  width:275px;   font-size:13px;   line-height:24px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.service-slide-guarantee p{     width:375px;       font-size:13px;       line-height:24px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif}
+.service-slide-guarantee p{  width:375px;   font-size:13px;   line-height:24px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.service-slide-credit p{     width:375px;       font-size:13px;       line-height:24px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif}
+.service-slide-credit p{  width:375px;   font-size:13px;   line-height:24px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.service-slide-text{     position:absolute;       top:240px;       left:321px;       z-index:10}
+.service-slide-text{  position:absolute;   top:240px;   left:321px;   z-index:10}
 
-.service-slide-delivery img{     position:absolute;       bottom:-97px;       right:0}
+.service-slide-delivery img{  position:absolute;   bottom:-97px;   right:0}
 
-.service-slide-guarantee img{     position:absolute;       bottom:-97px;       right:-8px}
+.service-slide-guarantee img{  position:absolute;   bottom:-97px;   right:-8px}
 
-.service-slide-credit img{     position:absolute;       bottom:-97px;       right:-25px}
+.service-slide-credit img{  position:absolute;   bottom:-97px;   right:-25px}
 
-.btn-service-slide{     position:absolute;       box-sizing:border-box;       left:321px;       top:345px;       margin-top:25px;       padding-top:12px;       height:40px;       width:195px;       text-align:center;       background:#ee3643;       border-radius:4px;       text-decoration:none;       font-size:14px;       line-height:18px;       font-family:"Cuprum","Arial",sans-serif;       color:#fff;       text-transform:uppercase}
+.btn-service-slide{  position:absolute;   box-sizing:border-box;   left:321px;   top:345px;   margin-top:25px;   padding-top:12px;   height:40px;   width:195px;   text-align:center;   background:#ee3643;   border-radius:4px;   text-decoration:none;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-transform:uppercase}
 
-.btn-service-slide:hover{     background:#ca2c37}
+.btn-service-slide:hover{  background:#ca2c37}
 
-.btn-service-slide:active{     background:#ba2732}
+.btn-service-slide:active{  background:#ba2732}
 
-.company-info{     box-sizing:border-box;       padding-bottom:84px}
+.company-info{  box-sizing:border-box;   padding-bottom:84px}
 
-.company-about{     width:535px;       float:left}
+.company-about{  width:535px;   float:left}
 
-.company-about h3{     margin-bottom:29px;       margin-top:34px;       font-size:30px;       line-height:24px;       color:#000;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase}
+.company-about h3{  margin-bottom:29px;   margin-top:34px;   font-size:30px;   line-height:24px;   color:#000;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.company-about p{     font-size:13px;       line-height:24px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif}
+.company-about p{  font-size:13px;   line-height:24px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.company-about h3+p{     padding-bottom:11px}
+.company-about h3+p{  padding-bottom:11px}
 
-.company-about p+p{     max-width:390px}
+.company-about p+p{  max-width:390px}
 
-.company-about-delivery{     margin-top:5px;       position:relative;       padding-left:37px}
+.company-about-delivery{  margin-top:5px;   position:relative;   padding-left:37px}
 
-.company-about-delivery li{     list-style:none;       padding:0;       margin:0;       position:relative}
+.company-about-delivery li{  list-style:none;   padding:0;   margin:0;   position:relative}
 
-.company-about-delivery a{     display:block;       width:160px;       padding-top:9px;       padding-bottom:10px;       font-size:18px;       line-height:20px;       color:#000;       font-family:"Cuprum","Arial",sans-serif;       text-decoration:none}
+.company-about-delivery a{  display:block;   width:160px;   padding-top:9px;   padding-bottom:10px;   font-size:18px;   line-height:20px;   color:#000;   font-family:"Cuprum","Arial",sans-serif;   text-decoration:none}
 
-.company-about-delivery li::before{     content:"";       width:25px;       height:2px;       background:#fb565a;       position:absolute;       left:-37px;       top:18px}
+.company-about-delivery li::before{  content:"";   width:25px;   height:2px;   background:#fb565a;   position:absolute;   left:-37px;   top:18px}
 
-.company-about-delivery+a{     box-sizing:border-box;       display:block;       margin-top:26px;       padding-top:12px;       width:220px;       height:40px;       text-align:center;       text-align:center;       background:#ee3643;       border-radius:4px;       text-decoration:none;       font-size:14px;       line-height:18px;       font-family:"Cuprum","Arial",sans-serif;       color:#fff;       text-transform:uppercase}
+.company-about-delivery+a{  box-sizing:border-box;   display:block;   margin-top:26px;   padding-top:12px;   width:220px;   height:40px;   text-align:center;   text-align:center;   background:#ee3643;   border-radius:4px;   text-decoration:none;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-transform:uppercase}
 
-.company-about-delivery+a:hover{     background:#ca2c37}
+.company-about-delivery+a:hover{  background:#ca2c37}
 
-.company-about-delivery+a:active{     background:#ba2732}
+.company-about-delivery+a:active{  background:#ba2732}
 
-.company-contacts{     float:right}
+.company-contacts{  float:right}
 
-.company-contacts h3{     padding-top:5px;       margin-bottom:29px;       font-size:30px;       line-height:24px;       color:#000;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase}
+.company-contacts h3{  padding-top:5px;   margin-bottom:29px;   font-size:30px;   line-height:24px;   color:#000;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.company-contacts p{     max-width:185px;       font-size:13px;       line-height:24px;       color:#000;       font-weight:normal;       margin-bottom:30px;       font-family:"PT Sans","Arial",sans-serif}
+.company-contacts p{  max-width:185px;   font-size:13px;   line-height:24px;   color:#000;   font-weight:normal;   margin-bottom:30px;   font-family:"PT Sans","Arial",sans-serif}
 
-.company-contacts .btn-mail{     box-sizing:border-box;       display:block;       width:300px;       height:40px;       margin-top:34px;       padding-top:12px;       padding-left:7px;       text-align:center;       background:#ee3643;       border-radius:4px;       text-decoration:none;       font-size:14px;       line-height:18px;       font-family:"Cuprum","Arial",sans-serif;       color:#fff;       text-transform:uppercase}
+.company-contacts .btn-mail{  box-sizing:border-box;   display:block;   width:300px;   height:40px;   margin-top:34px;   padding-top:12px;   padding-left:7px;   text-align:center;   background:#ee3643;   border-radius:4px;   text-decoration:none;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   color:#fff;   text-transform:uppercase}
 
-.btn-mail:hover{     background:#ca2c37}
+.btn-mail:hover{  background:#ca2c37}
 
-.btn-mail:active{     background:#ba2732}
+.btn-mail:active{  background:#ba2732}
 
-.main-footer-top::before{      content:"";        overflow:hidden;        display:block}
+.main-footer-top::before{  content:"";   overflow:hidden;   display:block}
 
-.main-footer-top{      min-height:190px;        background:#32425c}
+.main-footer-top{  min-height:190px;   background:#32425c}
 
-.footer-info{      width:345px;        float:left;        height:100px;        font-size:18px;        line-height:24px;        color:#f1f5f7;         font-family:"Cuprum","Arial",sans-serif}
+.footer-info{  width:345px;   float:left;   height:100px;   font-size:18px;   line-height:24px;   color:#f1f5f7;   font-family:"Cuprum","Arial",sans-serif}
 
-.footer-index-logo a{      box-sizing:border-box;        float:left;        padding:19px;        padding-bottom:13px;        margin-bottom:4px;        width:220px;        font-size:30px;        line-height:30px;        font-weight:normal;        color:#fff;         font-family:"Cuprum","Arial",sans-serif;        text-align:center;        text-transform:uppercase;        text-decoration:none;        background:#ee3643;        box-shadow:0 5px 0 0 #b52933}
+.footer-index-logo a{  box-sizing:border-box;   float:left;   padding:19px;   padding-bottom:13px;   margin-bottom:4px;   width:220px;   font-size:30px;   line-height:30px;   font-weight:normal;   color:#fff;   font-family:"Cuprum","Arial",sans-serif;   text-align:center;   text-transform:uppercase;   text-decoration:none;   background:#ee3643;   box-shadow:0 5px 0 0 #b52933}
 
-.footer-index-logo a:hover{      background-color:#ca2c37;        cursor:pointer;        box-shadow:0 6px 0 0 #9a212a}
+.footer-index-logo a:hover{  background-color:#ca2c37;   cursor:pointer;   box-shadow:0 6px 0 0 #9a212a}
 
-.footer-index-logo a:active{      background-color:#ba2732;        cursor:pointer;        box-shadow:0 6px 0 0 #8e1e26}
+.footer-index-logo a:active{  background-color:#ba2732;   cursor:pointer;   box-shadow:0 6px 0 0 #8e1e26}
 
-.footer-info p{      float:left;        padding-top:11px;        padding-left:3px}
+.footer-info p{  float:left;   padding-top:11px;   padding-left:3px}
 
-.footer-nav-top{      float:right;        padding:0;        margin:0}
+.footer-nav-top{  float:right;   padding:0;   margin:0}
 
-.footer-nav-top li{      list-style:none;        display:inline-block;        margin-right:54px;        padding-top:10px}
+.footer-nav-top li{  list-style:none;   display:inline-block;   margin-right:54px;   padding-top:10px}
 
-.footer-nav-top a{      display:block;        margin-top:28px;        padding-bottom:10px;        text-decoration:none;        font-size:18px;        line-height:24px;        font-weight:normal;        color:#f1f5f7;         font-family:"Cuprum","Arial",sans-serif}
+.footer-nav-top a{  display:block;   margin-top:28px;   padding-bottom:10px;   text-decoration:none;   font-size:18px;   line-height:24px;   font-weight:normal;   color:#f1f5f7;   font-family:"Cuprum","Arial",sans-serif}
 
-.footer-nav-top li:last-child{      margin-right:0}
+.footer-nav-top li:last-child{  margin-right:0}
 
-.footer-nav-top a:hover{      color:#f1f5f7;        text-decoration:underline;        cursor:pointer}
+.footer-nav-top a:hover{  color:#f1f5f7;   text-decoration:underline;   cursor:pointer}
 
-.footer-nav-top a:active{      opacity:0.3;        cursor:pointer}
+.footer-nav-top a:active{  opacity:0.3;   cursor:pointer}
 
-.footer-nav-bottom{      float:right;        list-style:none;        padding:0;        margin:0}
+.footer-nav-bottom{  float:right;   list-style:none;   padding:0;   margin:0}
 
-.footer-nav-bottom li{      display:inline-block;        margin-left:54px;        margin-top:20px}
+.footer-nav-bottom li{  display:inline-block;   margin-left:54px;   margin-top:20px}
 
-.footer-nav-bottom a{      display:block;        padding-top:5px;        padding-bottom:5px;        font-size:18px;        line-height:24px;        font-weight:normal;        color:#ffd180;         font-family:"Cuprum","Arial",sans-serif;        text-decoration:none}
+.footer-nav-bottom a{  display:block;   padding-top:5px;   padding-bottom:5px;   font-size:18px;   line-height:24px;   font-weight:normal;   color:#ffd180;   font-family:"Cuprum","Arial",sans-serif;   text-decoration:none}
 
-.footer-nav-bottom li:last-child{      margin-right:0}
+.footer-nav-bottom li:last-child{  margin-right:0}
 
-.footer-nav-bottom a:hover{      color:#ffd180;        text-decoration:underline}
+.footer-nav-bottom a:hover{  color:#ffd180;   text-decoration:underline}
 
-.footer-nav-bottom a:active{      opacity:0.3}
+.footer-nav-bottom a:active{  opacity:0.3}
 
-.main-footer-bottom{      height:108px;        background:#293449}
+.main-footer-bottom{  height:108px;   background:#293449}
 
-.footer-copyright{      float:left;        width:240px;        padding-top:40px;        font-size:16px;        line-height:18px;        font-weight:normal;        color:#fff;         font-family:"Cuprum","Arial",sans-serif}
+.footer-copyright{  float:left;   width:240px;   padding-top:40px;   font-size:16px;   line-height:18px;   font-weight:normal;   color:#fff;   font-family:"Cuprum","Arial",sans-serif}
 
-.connect-developer{      font-size:0}
+.connect-developer{  font-size:0}
 
-.mail-developer{      float:left;        display:inline-block;        margin-left:120px;        margin-top:24px;        font-size:16px;        line-height:18px;        color:#fff;        margin-bottom:0;         font-family:"Cuprum","Arial",sans-serif;        vertical-align:top}
+.mail-developer{  float:left;   display:inline-block;   margin-left:120px;   margin-top:24px;   font-size:16px;   line-height:18px;   color:#fff;   margin-bottom:0;   font-family:"Cuprum","Arial",sans-serif;   vertical-align:top}
 
-.mail-developer p{      font-size:16px;        line-height:18px;        color:#fff;        margin-bottom:0;         font-family:"Cuprum","Arial",sans-serif}
+.mail-developer p{  font-size:16px;   line-height:18px;   color:#fff;   margin-bottom:0;   font-family:"Cuprum","Arial",sans-serif}
 
-.mail-developer a{      display:inline-block;        font-size:16px;        line-height:18px;        color:#ffd180;        text-decoration:none;         font-family:"Cuprum","Arial",sans-serif;        vertical-align:top}
+.mail-developer a{  display:inline-block;   font-size:16px;   line-height:18px;   color:#ffd180;   text-decoration:none;   font-family:"Cuprum","Arial",sans-serif;   vertical-align:top}
 
-.mail-developer a:active{      color:#ee3643}
+.mail-developer a:active{  color:#ee3643}
 
-.link-developer{      float:right;        display:inline-block;        margin-top:25px;        margin-right:13px;        font-size:0}
+.link-developer{  float:right;   display:inline-block;   margin-top:25px;   margin-right:13px;   font-size:0}
 
-.link-developer p{      font-size:16px;        line-height:18px;        font-weight:normal;        color:#fff;        margin-bottom:0;         font-family:"Cuprum","Arial",sans-serif}
+.link-developer p{  font-size:16px;   line-height:18px;   font-weight:normal;   color:#fff;   margin-bottom:0;   font-family:"Cuprum","Arial",sans-serif}
 
-.link-developer a{      display:inline-block;        font-size:16px;        line-height:18px;        font-weight:normal;        color:#ffd180;        text-decoration:none;         font-family:"Cuprum","Arial",sans-serif;        vertical-align:top}
+.link-developer a{  display:inline-block;   font-size:16px;   line-height:18px;   font-weight:normal;   color:#ffd180;   text-decoration:none;   font-family:"Cuprum","Arial",sans-serif;   vertical-align:top}
 
-.link-developer a:active{      color:#ee3643}
+.link-developer a:active{  color:#ee3643}
 
-.footer-social{      box-sizing:border-box;        float:left;        margin-left:155px;        margin-top:39px;        font-size:0}
+.footer-social{  box-sizing:border-box;   float:left;   margin-left:155px;   margin-top:39px;   font-size:0}
 
-.social-btn{      display:inline-block;        position:relative;        width:40px;        height:40px;        margin-right:2px;        background:#212a3a;        border-radius:50%;        vertical-align:top}
+.social-btn{  display:inline-block;   position:relative;   width:40px;   height:40px;   margin-right:2px;   background:#212a3a;   border-radius:50%;   vertical-align:top}
 
-.social-btn:hover{      background:#ee3643}
+.social-btn:hover{  background:#ee3643}
 
-.social-btn:active{      background:#ee3643}
+.social-btn:active{  background:#ee3643}
 
-.social-vk::before{      content:"";        display:block;        position:absolute;        top:16px;        left:8px;        width:20px;        height:12px;        background-position:-10px -621px;        background-image:url("../img/icons-sprite-2.png")}
+.social-vk::before{  content:"";   display:block;   position:absolute;   top:16px;   left:8px;   width:20px;   height:12px;   background-position:-10px -621px;   background-image:url("../img/icons-sprite-2.png")}
 
-.social-inst::before{      content:"";        display:block;        position:absolute;        top:13px;        left:11px;        width:17px;        height:17px;        background-position:-10px -146px;        background-image:url("../img/icons-sprite-2.png")}
+.social-inst::before{  content:"";   display:block;   position:absolute;   top:13px;   left:11px;   width:17px;   height:17px;   background-position:-10px -146px;   background-image:url("../img/icons-sprite-2.png")}
 
-.social-fb::before{      content:"";        display:block;        position:absolute;        top:12px;        left:15px;        width:17px;        width:10px;        height:18px;        background-position:-10px -76px;        background-image:url("../img/icons-sprite-2.png")}
+.social-fb::before{  content:"";   display:block;   position:absolute;   top:12px;   left:15px;   width:17px;   width:10px;   height:18px;   background-position:-10px -76px;   background-image:url("../img/icons-sprite-2.png")}
 
-.breadcrumbs{      font-size:0}
+.breadcrumbs{  font-size:0}
 
-.breadcrumbs a{      position:relative;        display:inline-block;        padding-top:21px;        padding-bottom:10px;        padding-right:40px;        font-size:13px;        line-height:18px;        color:#000;        font-family:"PT Sans","Arial",sans-serif;        text-transform:uppercase;        text-decoration:none;        vertical-align:top;        text-decoration:none}
+.breadcrumbs a{  position:relative;   display:inline-block;   padding-top:21px;   padding-bottom:10px;   padding-right:40px;   font-size:13px;   line-height:18px;   color:#000;   font-family:"PT Sans","Arial",sans-serif;   text-transform:uppercase;   text-decoration:none;   vertical-align:top;   text-decoration:none}
 
-.breadcrumbs a:first-child{      padding-right:56px}
+.breadcrumbs a:first-child{  padding-right:56px}
 
-.breadcrumbs a::before{      content:"";        position:absolute;        top:22px;          left:-27px;        width:10px;        height:15px;        background:url(../img/icons-sprite-2.png);        background-position:-10px -374px}
+.breadcrumbs a::before{  content:"";   position:absolute;   top:22px;   left:-27px;   width:10px;   height:15px;   background:url(../img/icons-sprite-2.png);   background-position:-10px -374px}
 
-.breadcrumbs a:first-child::before{      content:"";        position:absolute;        top:23px;        left:0;        width:15px;        height:15px;        background:url(../img/icons-sprite-2.png);       background-position:-12px -112px}
+.breadcrumbs a:first-child::before{  content:"";   position:absolute;   top:23px;   left:0;   width:15px;   height:15px;   background:url(../img/icons-sprite-2.png);   background-position:-12px -112px}
 
-.title-page-catalog{     margin-top:10px;       padding-top:5px;       padding-bottom:5px;       margin-bottom:20px;       background:#f2f6f8}
+.title-page-catalog{  margin-top:10px;   padding-top:5px;   padding-bottom:5px;   margin-bottom:20px;   background:#f2f6f8}
 
-.title-page-catalog h2{     padding-left:28px;       font-size:30px;       line-height:30px;       color:#32425c;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase}
+.title-page-catalog h2{  padding-left:28px;   font-size:30px;   line-height:30px;   color:#32425c;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.sort-row{     width:700px;       padding-top:10px;       padding-bottom:6px;       margin-bottom:19px;       font-size:13px;       line-height:18px;       color:#000;       text-transform:uppercase;       font-family:"PT Sans","Arial",sans-serif;       border-radius:3px;       background:#f7f3ec}
+.sort-row{  width:700px;   padding-top:10px;   padding-bottom:6px;   margin-bottom:19px;   font-size:13px;   line-height:18px;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   border-radius:3px;   background:#f7f3ec}
 
-a.btn-sort{     color:#c6c2bd;       border-bottom:1px dotted #ee3643;       cursor:pointer;       text-decoration:none;       margin-right:62px}
+a.btn-sort{  color:#c6c2bd;   border-bottom:1px dotted #ee3643;   cursor:pointer;   text-decoration:none;   margin-right:62px}
 
-.sort-row a:nth-of-type(3){     margin-right:38px}
+.sort-row a:nth-of-type(3){  margin-right:38px}
 
-.btn-sort:hover{     color:#000;       border-bottom:1px solid #ee3643}
+.btn-sort:hover{  color:#000;   border-bottom:1px solid #ee3643}
 
 .sort-row .btn-sort-price,
-.btn-sort:active{     color:#ee3643;       border-bottom:none}
+.btn-sort:active{  color:#ee3643;   border-bottom:none}
 
-.btn-sort-price{     margin-right:67px;       cursor:pointer}
+.btn-sort-price{  margin-right:67px;   cursor:pointer}
 
-.sort-row .btn-up{     position:relative;       margin-right:10px;       font-size:0}
+.sort-row .btn-up{  position:relative;   margin-right:10px;   font-size:0}
 
-.sort-row .btn-down{     position:relative;       margin-right:20px;       font-size:0}
+.sort-row .btn-down{  position:relative;   margin-right:20px;   font-size:0}
 
-.sort-row .btn-up::before{     content:"";       position:absolute;       display:block;       bottom:-1px;       right:-13px;       border:5px solid transparent;       border-bottom:10px solid #c6c2bd}
+.sort-row .btn-up::before{  content:"";   position:absolute;   display:block;   bottom:-1px;   right:-13px;   border:5px solid transparent;   border-bottom:10px solid #c6c2bd}
 
-.sort-row .btn-up:hover::before{     border:5px solid transparent;       border-bottom:10px solid #000}
+.sort-row .btn-up:hover::before{  border:5px solid transparent;   border-bottom:10px solid #000}
 
 .sort-row .now-btn-up::before,
-.sort-row .btn-up:active::before{     border:5px solid transparent;       border-bottom:10px solid #ee3643}
+.sort-row .btn-up:active::before{  border:5px solid transparent;   border-bottom:10px solid #ee3643}
 
-.sort-row .btn-down::after{     content:"";       position:absolute;       display:block;       bottom:-7px;       right:-35px;       border:5px solid transparent;       border-top:10px solid #c6c2bd}
+.sort-row .btn-down::after{  content:"";   position:absolute;   display:block;   bottom:-7px;   right:-35px;   border:5px solid transparent;   border-top:10px solid #c6c2bd}
 
-.sort-row .btn-down:hover::after{     border:5px solid transparent;       border-top:10px solid #000}
+.sort-row .btn-down:hover::after{  border:5px solid transparent;   border-top:10px solid #000}
 
-.sort-row .btn-down:active::after{     border:5px solid transparent;       border-top:10px solid #ee3643}
+.sort-row .btn-down:active::after{  border:5px solid transparent;   border-top:10px solid #ee3643}
 
-.sort-row span{     margin-left:20px;       margin-right:135px}
+.sort-row span{  margin-left:20px;   margin-right:135px}
 
-.filter-form{     float:left;       width:220px;       height:760px;       box-sizing:border-box;       margin-right:19px}
+.filter-form{  float:left;   width:220px;   height:760px;   box-sizing:border-box;   margin-right:19px}
 
-.filter span{     float:left;       width:200px;       padding-left:20px;       padding-top:10px;       padding-bottom:10px;       margin-bottom:8px;       background:#f7f3ec;       font-size:13px;       line-height:18px;       color:#000;       text-transform:uppercase;       font-family:"PT Sans","Arial",sans-serif;       background:#f7f3ec;       border-radius:2px}
+.filter span{  float:left;   width:200px;   padding-left:20px;   padding-top:10px;   padding-bottom:10px;   margin-bottom:8px;   background:#f7f3ec;   font-size:13px;   line-height:18px;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   background:#f7f3ec;   border-radius:2px}
 
 .price-range-title,
 .filter-brands-title,
-.filter-source-title{     font-size:17px;       line-height:30px;       color:#776589;       font-weight:bold;       font-family:"PT Sans","Arial",sans-serif}
+.filter-source-title{  font-size:17px;   line-height:30px;   color:#776589;   font-weight:bold;   font-family:"PT Sans","Arial",sans-serif}
 
-.range-filter{     box-sizing:border-box;       width:220px;       margin-bottom:25px}
+.range-filter{  box-sizing:border-box;   width:220px;   margin-bottom:25px}
 
-.range-filter span{     box-sizing:border-box;       display:inline-block;       margin-bottom:13px;       margin-top:4px;       font-size:17px;       line-height:30px;       font-weight:bold;       color:#000;       text-transform:uppercase;       font-family:"PT Sans","Arial",sans-serif;       vertical-align:top}
+.range-filter span{  box-sizing:border-box;   display:inline-block;   margin-bottom:13px;   margin-top:4px;   font-size:17px;   line-height:30px;   font-weight:bold;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   vertical-align:top}
 
-.range-controls{     position:relative;       height:41px;       padding-top:39px;       padding-right:20px;       padding-left:20px;       border-radius:2px;       background:#f7f3ec}
+.range-controls{  position:relative;   height:41px;   padding-top:39px;   padding-right:20px;   padding-left:20px;   border-radius:2px;   background:#f7f3ec}
 
-.range-controls .scale{     height:2px;       background:#d7dcde}
+.range-controls .scale{  height:2px;   background:#d7dcde}
 
-.range-controls .bar{     width:70%;       height:2px;       background:#00ca74}
+.range-controls .bar{  width:70%;   height:2px;   background:#00ca74}
 
-.range-controls .toggle{     position:absolute;       top:30px;       left:0px;       width:4px;       height:4px;       cursor:pointer;       border:8px solid #fff;       border-radius:50%;       background:#ababab;       box-shadow:0 2px 1px 0 #cfcfcf}
+.range-controls .toggle{  position:absolute;   top:30px;   left:0px;   width:4px;   height:4px;   cursor:pointer;   border:8px solid #fff;   border-radius:50%;   background:#ababab;   box-shadow:0 2px 1px 0 #cfcfcf}
 
-.range-controls .toggle-min{     left:21px}
+.range-controls .toggle-min{  left:21px}
 
-.range-controls .toggle-max{     left:160px}
+.range-controls .toggle-max{  left:160px}
 
-.price-controls{     font-size:0;       position:relative;       margin-top:9px}
+.price-controls{  font-size:0;   position:relative;   margin-top:9px}
 
-.price-controls::after{     content:"";       position:absolute;       top:19px;       left:105px;       width:10px;       height:1px;       background:#000}
+.price-controls::after{  content:"";   position:absolute;   top:19px;   left:105px;   width:10px;   height:1px;   background:#000}
 
-.price-controls label{     font-size:16px;       display:inline-block;       width:50%}
+.price-controls label{  font-size:16px;   display:inline-block;   width:50%}
 
-.max-price{     text-align:right}
+.max-price{  text-align:right}
 
-.price-controls input{     display:inline-block;       width:62px;       margin-left:0;       padding:9px 18px;       font-size:17px;       line-height:18px;       text-align:center;       color:#283136;       font-family:"PT Sans","Arial",sans-serif;       vertical-align:top;       border:none;       border-radius:2px;       background:#f7f3ec}
+.price-controls input{  display:inline-block;   width:62px;   margin-left:0;   padding:9px 18px;   font-size:17px;   line-height:18px;   text-align:center;   color:#283136;   font-family:"PT Sans","Arial",sans-serif;   vertical-align:top;   border:none;   border-radius:2px;   background:#f7f3ec}
 
-.range-filter{     border-bottom:1px solid #e5e5e5;       padding-bottom:26px}
+.range-filter{  border-bottom:1px solid #e5e5e5;   padding-bottom:26px}
 
-.filter-brands{      box-sizing:border-box;        width:220px}
+.filter-brands{  box-sizing:border-box;   width:220px}
 
-.filter-brands{      border-bottom:1px solid #e5e5e5;        margin-bottom:2px}
+.filter-brands{  border-bottom:1px solid #e5e5e5;   margin-bottom:2px}
 
 .filter-source span,
-.filter-brands span{      display:block;        font-size:17px;        line-height:30px;        color:#000;        text-transform:uppercase;        font-family:"PT Sans","Arial",sans-serif}
+.filter-brands span{  display:block;   font-size:17px;   line-height:30px;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif}
 
-.filter-brands span{      margin-top:-8px;        margin-bottom:13px}
+.filter-brands span{  margin-top:-8px;   margin-bottom:13px}
 
-.filter-brands input[type="checkbox"]{      display:none}
+.filter-brands input[type="checkbox"]{  display:none}
 
-input[type="checkbox"]+.brands-label{      position:relative;        display:block;        margin-left:35px;        font-size:15px;        line-height:20px;        color:#000;        text-transform:uppercase;        font-family:"PT Sans","Arial",sans-serif;        cursor:pointer}
+input[type="checkbox"]+.brands-label{  position:relative;   display:block;   margin-left:35px;   font-size:15px;   line-height:20px;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   cursor:pointer}
 
-.brands-label{      position:relative;        display:block;        margin-left:35px;        margin-bottom:21px;        font-size:15px;        line-height:20px;        color:#000;        text-transform:uppercase;        font-family:"PT Sans","Arial",sans-serif;        cursor:pointer}
+.brands-label{  position:relative;   display:block;   margin-left:35px;   margin-bottom:21px;   font-size:15px;   line-height:20px;   color:#000;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   cursor:pointer}
 
-input[type="checkbox"]+.brands-label::before{      content:"";        position:absolute;        top:0;        left:-37px;        width:23px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -95px}
+input[type="checkbox"]+.brands-label::before{  content:"";   position:absolute;   top:0;   left:-37px;   width:23px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -95px}
 
-input[type="checkbox"]+.brands-label:hover::before{      content:"";        position:absolute;        top:0;        left:-37px;        width:23px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -52px}
+input[type="checkbox"]+.brands-label:hover::before{  content:"";   position:absolute;   top:0;   left:-37px;   width:23px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -52px}
 
-input[type="checkbox"]+.brands-label:disabled::before{      content:"";        position:absolute;        top:0;        left:-37px;        width:23px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -10px}
+input[type="checkbox"]+.brands-label:disabled::before{  content:"";   position:absolute;   top:0;   left:-37px;   width:23px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -10px}
 
-input[type="checkbox"]:checked+.brands-label::after{      content:"";        position:absolute;        top:0;        left:-37px;        width:27px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -225px}
+input[type="checkbox"]:checked+.brands-label::after{  content:"";   position:absolute;   top:0;   left:-37px;   width:27px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -225px}
 
-input[type="checkbox"]:checked+.brands-label:hover::after{      content:"";        position:absolute;        top:0;        left:-37px;        width:27px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -182px}
+input[type="checkbox"]:checked+.brands-label:hover::after{  content:"";   position:absolute;   top:0;   left:-37px;   width:27px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -182px}
 
-input[type="checkbox"]:checked+.brands-label:disabled::after{      content:"";        position:absolute;        top:0;        left:-37px;        width:27px;        height:23px;        background:url(../img/sprite-filter.png);        background-position:-10px -139px}
+input[type="checkbox"]:checked+.brands-label:disabled::after{  content:"";   position:absolute;   top:0;   left:-37px;   width:27px;   height:23px;   background:url(../img/sprite-filter.png);   background-position:-10px -139px}
 
-.filter-source input[type="radio"]{      display:none}
+.filter-source input[type="radio"]{  display:none}
 
-.filter-source-title{      padding-top:12px}
+.filter-source-title{  padding-top:12px}
 
-.filter-source label{      position:relative;        font-size:15px;        line-height:20px;        text-transform:uppercase;        font-family:"PT Sans","Arial",sans-serif;        cursor:pointer}
+.filter-source label{  position:relative;   font-size:15px;   line-height:20px;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   cursor:pointer}
 
-input[type="radio"]+.source-label{      position:relative;        display:block;        margin-left:35px;        margin-bottom:20px;        margin-top:13px;        font-size:15px;        line-height:20px;        text-transform:uppercase;        font-family:"PT Sans","Arial",sans-serif;        cursor:pointer}
+input[type="radio"]+.source-label{  position:relative;   display:block;   margin-left:35px;   margin-bottom:20px;   margin-top:13px;   font-size:15px;   line-height:20px;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   cursor:pointer}
 
-input[type="radio"]+.source-label:disabled{      color:rgba(0,0,0,0.4)}
+input[type="radio"]+.source-label:disabled{  color:rgba(0,0,0,0.4)}
 
-input[type="radio"]+.source-label::before{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);        background-position:-10px -493px}
+input[type="radio"]+.source-label::before{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -493px}
 
-input[type="radio"]+.source-label:hover::before{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);        background-position:-10px -448px}
+input[type="radio"]+.source-label:hover::before{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -448px}
 
-input[type="radio"]+.source-label:disabled:before{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);        background-position:-10px -268px}
+input[type="radio"]+.source-label:disabled:before{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -268px}
 
-input[type="radio"]:checked+.source-label::after{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);        background-position:-10px -403px}
+input[type="radio"]:checked+.source-label:hover::after{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -358px}
 
-input[type="radio"]:checked+.source-label:hover::after{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);        background-position:-10px -358px}
+input[type="radio"]:checked+.source-label:disabled::after{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -313px}
 
-input[type="radio"]:checked+.source-label:disabled::after{      content:"";        position:absolute;        top:0;        left:-35px;        width:25px;        height:25px;        background:url(../img/sprite-filter.png);       background-position:-10px -313px}
+input[type="radio"]:checked+.source-label::after{  content:"";   position:absolute;   top:0;   left:-35px;   width:25px;   height:25px;   background:url(../img/sprite-filter.png);   background-position:-10px -403px}
 
-.filter-source .batery-btn{     display:inline-block;       margin-top:60px;       padding-top:9px;       padding-bottom:7px;       padding-left:37px;       padding-right:37px;       font-size:13px;       line-height:18px;       text-transform:uppercase;       color:#000;       font-family:"PT Sans","Arial",sans-serif;       vertical-align:top;       text-align:center;       text-decoration:none;       background-color:#fff;       border:1px solid #e5e5e5;       border-radius:2px;       cursor:pointer}
+.filter-source .batery-btn{  display:inline-block;   margin-top:60px;   padding-top:9px;   padding-bottom:7px;   padding-left:37px;   padding-right:37px;   font-size:13px;   line-height:18px;   text-transform:uppercase;   color:#000;   font-family:"PT Sans","Arial",sans-serif;   vertical-align:top;   text-align:center;   text-decoration:none;   background-color:#fff;   border:1px solid #e5e5e5;   border-radius:2px;   cursor:pointer}
 
-.catalog-product{      width:700px;        float:right;        font-size:0}
+.catalog-product{  width:700px;   float:right;   font-size:0}
 
-.product{      position:relative;        display:inline-block;        width:218px;        margin-right:20px;        margin-bottom:20px;        font-size:18px;        line-height:20px;        font-family:"PT Sans","Arial",sans-serif;        font-weight:bold;        text-align:center;        border:1px solid #ccc;        vertical-align:top}
+.product{  position:relative;   display:inline-block;   width:218px;   margin-right:20px;   margin-bottom:20px;   font-size:18px;   line-height:20px;   font-family:"PT Sans","Arial",sans-serif;   font-weight:bold;   text-align:center;   border:1px solid #ccc;   vertical-align:top}
 
-.catalog-product .product:nth-of-type(3n){      margin-right:0}
+.catalog-product .product:nth-child(3n+1){  margin-right:0}
 
-.product:hover{      box-shadow:0 10px 25px rgba(41,52,73,0.5)}
+.product:hover{  box-shadow:0 10px 25px rgba(41,52,73,0.5)}
 
-.product-flag::before{      content:"";        position:absolute;        top:0px;        right:0px;        width:60px;        height:59px;        background-position:-77px -551px;        background-image:url("../img/icons-sprite-2.png")}
+.product-flag::before{  content:"";   position:absolute;   top:0px;   right:0px;   width:60px;   height:59px;   background-position:-77px -551px;   background-image:url("../img/icons-sprite-2.png")}
 
-.product .action-buy{      display:none;        position:absolute;        top:0;        left:0;        width:218px;        height:88px;        padding:40px 0;        background-color:rgba(255,255,255,0.9);        z-index:10}
+.product .action-buy{  display:none;   position:absolute;   top:0;   left:0;   width:218px;   height:88px;   padding:40px 0;   background-color:rgba(255,255,255,0.9);   z-index:10}
 
-.product:hover .action-buy{      display:block}
+.product:hover .action-buy{  display:block}
 
- .action-buy .btn-buy,
- .action-buy .btn-bookmark{      display:block;        width:129px;        margin:0 auto;        margin-bottom:8px;        padding:7px 0;        color:#fff;        font-size:14px;        font-weight:normal;         font-family:"Cuprum","Arial",sans-serif;        line-height:18px;        text-decoration:none;        text-transform:uppercase;        border-radius:3px;        border:3px solid #63a63e;        border-bottom-color:#367315;        background-color:#63a63e;        cursor:pointer}
+.action-buy .btn-buy,
+.action-buy .btn-bookmark{  display:block;   width:129px;   margin:0 auto;   margin-bottom:8px;   padding:7px 0;   color:#fff;   font-size:14px;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   line-height:18px;   text-decoration:none;   text-transform:uppercase;   border-radius:3px;   border:3px solid #63a63e;   border-bottom-color:#367315;   background-color:#63a63e;   cursor:pointer}
 
-.action-buy .btn-bookmark{      color:#32425c;        background:white;        border-bottom-color:#63a63e}
+.action-buy .btn-bookmark{  color:#32425c;   background:white;   border-bottom-color:#63a63e}
 
- .action-buy .btn-bookmark:hover{      color:#32425c;        background:white;        border:3px solid #32425c}
+.action-buy .btn-bookmark:hover{  color:#32425c;   background:white;   border:3px solid #32425c}
 
- .action-buy .btn-bookmark:active{      opacity:0.3}
+.action-buy .btn-bookmark:active{  opacity:0.3}
 
-.action-buy .btn-buy{      position:relative;        margin-top:5px}
+.action-buy .btn-buy{  position:relative;   margin-top:5px}
 
- .action-buy .btn-buy::after{      content:"";        position:absolute;        top:7px;        left:10px;        width:17px;        height:16px;        background-position:-10px -10px;        background-image:url("../img/icons-sprite-2.png");       opacity:0.3}
+.action-buy .btn-buy::after{  content:"";   position:absolute;   top:7px;   left:10px;   width:17px;   height:16px;   background-position:-10px -10px;   background-image:url("../img/icons-sprite-2.png");   opacity:0.3}
 
-.action-buy .btn-buy:hover::after{     opacity:1}
+.action-buy .btn-buy:hover::after{  opacity:1}
 
-.action-buy .btn-buy:hover{     border:3px solid #5fbb2d;       border-bottom-color:#367315;       background:#5fbb2d}
+.action-buy .btn-buy:hover{  border:3px solid #5fbb2d;   border-bottom-color:#367315;   background:#5fbb2d}
 
-.action-buy .btn-buy:active{     border:3px solid #518534;       border-bottom-color:#518534;       background:#518534}
+.action-buy .btn-buy:active{  border:3px solid #518534;   border-bottom-color:#518534;   background:#518534}
 
-.product .product-image{     width:218px;       height:168px}
+.product .product-image{  width:218px;   height:168px}
 
-.product .product-image img{     max-width:100%;       padding-top:21px;       padding-right:18px}
+.product-image img{  max-width:100%;   padding-top:21px;   padding-right:18px}
 
-.product .title{     display:block;       min-height:40px;       padding:0 25px;       margin-top:10px;       margin-bottom:13px;       font-size:18px;       line-height:20px;       font-family:"PT Sans","Arial",sans-serif;       font-weight:bold;       color:#000;       text-align:center}
+.product .title{  display:block;   min-height:40px;   padding:0 25px;   margin-top:10px;   margin-bottom:13px;   font-size:18px;   line-height:20px;   font-family:"PT Sans","Arial",sans-serif;   font-weight:bold;   color:#000;   text-align:center}
 
-.product .old-price{     display:block;       min-height:20px;       margin-top:11px;       margin-bottom:6px;       font-size:17px;       line-height:18px;       color:#999;       font-weight:bold;       text-transform:uppercase;       font-family:"PT Sans","Arial",sans-serif;       text-decoration:line-through;       text-align:center}
+.product .old-price{  display:block;   min-height:20px;   margin-top:11px;   margin-bottom:6px;   font-size:17px;   line-height:18px;   color:#999;   font-weight:bold;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   text-decoration:line-through;   text-align:center}
 
-.product .now-price{     display:block;       position:relative;       width:80px;       margin:8px auto;       margin-bottom:19px;       padding:10px 30px;       font-size:17px;       line-height:18px;       color:white;       font-weight:bold;       text-transform:uppercase;       font-family:"PT Sans","Arial",sans-serif;       background:#ee3643;       border-radius:3px}
+.product .now-price{  display:block;   position:relative;   width:80px;   margin:8px auto;   margin-bottom:19px;   padding:10px 30px;   font-size:17px;   line-height:18px;   color:white;   font-weight:bold;   text-transform:uppercase;   font-family:"PT Sans","Arial",sans-serif;   background:#ee3643;   border-radius:3px}
 
-.product .now-price::after{     content:"";       position:absolute;       top:0;       right:-20px;       width:0;       height:0;       border:19px solid white;       border-left-color:#ee3643}
+.product .now-price::after{  content:"";   position:absolute;   top:0;   right:-20px;   width:0;   height:0;   border:19px solid white;   border-left-color:#ee3643}
 
-.catalog-page-paginator{     height:40px;       margin-top:33px;       margin-bottom:58px}
+.catalog-page-paginator{  height:40px;   margin-top:33px;   margin-bottom:58px}
 
-.catalog-page-paginator a{     display:inline-block;       box-sizing:border-box;       min-width:36px;       height:36px;       margin-right:12px;       padding-top:8px;       text-align:center;       font-size:13px;       line-height:18px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif;       text-decoration:none;       text-transform:uppercase;       border-radius:3px;       background:#fff;       border:1px solid #e5e5e5;       vertical-align:top}
+.catalog-page-paginator a{  display:inline-block;   box-sizing:border-box;   min-width:36px;   height:36px;   margin-right:12px;   padding-top:8px;   text-align:center;   font-size:13px;   line-height:18px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif;   text-decoration:none;   text-transform:uppercase;   border-radius:3px;   background:#fff;   border:1px solid #e5e5e5;   vertical-align:top}
 
-.catalog-page-paginator .next{     width:140px;       font-size:13px;       line-height:18px;       font-weight:normal;       color:#000;       font-family:"PT Sans","Arial",sans-serif}
+.catalog-page-paginator .next{  width:140px;   font-size:13px;   line-height:18px;   font-weight:normal;   color:#000;   font-family:"PT Sans","Arial",sans-serif}
 
-.catalog-page-paginator .active{     color:#fff;       background:#ee3643}
+.catalog-page-paginator .active{  color:#fff;   background:#ee3643}
 
-.catalog-page-paginator a:hover{     border:1px solid #bdc6ca}
+.catalog-page-paginator a:hover{  border:1px solid #bdc6ca}
 
-.catalog-page-paginator a:active{     border:1px solid #ee3643}
+.catalog-page-paginator a:active{  border:1px solid #ee3643}
 
-.page-decsription{     box-sizing:border-box;       height:260px;       margin-top:30px;       background-color:#f2f6f8;       border:1px solid transparent;       clear:both}
+.page-decsription{  box-sizing:border-box;   height:260px;   margin-top:30px;   background-color:#f2f6f8;   border:1px solid transparent;   clear:both}
 
-.page-decsription-text p{     font-size:13px;       line-height:24px;       font-weight:normal;       font-family:"PT Sans","Arial",sans-serif;       color:#000}
+.page-decsription-text p{  font-size:13px;   line-height:24px;   font-weight:normal;   font-family:"PT Sans","Arial",sans-serif;   color:#000}
 
-.page-decsription-text h2{     padding-top:42px;       margin-bottom:28px;       font-size:30px;       line-height:24px;       color:#000;       font-weight:normal;       font-family:"Cuprum","Arial",sans-serif;       text-transform:uppercase}
+.page-decsription-text h2{  padding-top:42px;   margin-bottom:28px;   font-size:30px;   line-height:24px;   color:#000;   font-weight:normal;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase}
 
-.modal-add-cart{      position:fixed;        box-sizing:border-box;        z-index:100;        top:410px;        left:642px;        display:block;        width:620px;        height:275px;        border-top:8px solid #ee3643;        background-color:#fff;        box-shadow:0 30px 50px rgba(0,0,0,0.7);        display:none}
+.modal-add-cart{  position:fixed;   box-sizing:border-box;   z-index:100;   top:410px;   left:642px;   display:block;   width:620px;   height:275px;   border-top:8px solid #ee3643;   background-color:#fff;   box-shadow:0 30px 50px rgba(0,0,0,0.7);   display:none}
 
-.modal-btn-close{      width:22px;        height:22px;        position:absolute;        top:7px;        right:7px;        font-size:0;        background-color:transparent;        border:0;        cursor:pointer}
+.modal-btn-close{  width:22px;   height:22px;   position:absolute;   top:7px;   right:7px;   font-size:0;   background-color:transparent;   border:0;   cursor:pointer}
 
-.modal-btn-close::before{      content:"";        position:absolute;        top:4px;        right:2px;        width:21px;        height:21px;        background-position:-10px -690px;        background-image:url("../img/icons-sprite-2.png")}
+.modal-btn-close::before{  content:"";   position:absolute;   top:4px;   right:2px;   width:21px;   height:21px;   background-position:-10px -690px;   background-image:url("../img/icons-sprite-2.png")}
 
-.message-add-cart p{      position:relative;        margin-top:67px;        margin-bottom:75px;        padding-left:180px;        font-size:30px;        color:#000;         font-family:"Cuprum","Arial",sans-serif}
+.message-add-cart p{  position:relative;   margin-top:67px;   margin-bottom:75px;   padding-left:180px;   font-size:30px;   color:#000;   font-family:"Cuprum","Arial",sans-serif}
 
-.modal-add-cart .btn-actions{      height:110px;        clear:both;        margin-left:auto;        margin-right:auto;        background:#f1f1f1}
+.modal-add-cart .btn-actions{  height:110px;   clear:both;   margin-left:auto;   margin-right:auto;   background:#f1f1f1}
 
-.btn-actions .btn-to-order{      float:left;        width:220px;        height:28px;        padding-top:10px;        margin-left:80px;        margin-top:35px;        color:#fff;        font-size:14px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase;        text-decoration:none;        text-align:center;        background:#ee3643;        border-radius:2px;        cursor:pointer}
+.btn-actions .btn-to-order{  float:left;   width:220px;   height:28px;   padding-top:10px;   margin-left:80px;   margin-top:35px;   color:#fff;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   text-decoration:none;   text-align:center;   background:#ee3643;   border-radius:2px;   cursor:pointer}
 
-.btn-actions .btn-back-current{      float:left;        width:220px;        height:30px;        padding-top:10px;        margin-left:19px;        margin-top:35px;        color:#000;        font-size:14px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase;        text-decoration:none;        text-align:center;        background:#fff;        border-radius:2px;        cursor:pointer}
+.btn-actions .btn-back-current{  float:left;   width:220px;   height:30px;   padding-top:10px;   margin-left:19px;   margin-top:35px;   color:#000;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   text-decoration:none;   text-align:center;   background:#fff;   border-radius:2px;   cursor:pointer}
 
-.message-add-cart::before{      content:"";        position:absolute;        top:46px;        left:79px;        background:#63a63e;        width:67px;        height:67px;        border-radius:50%}
+.message-add-cart::before{  content:"";   position:absolute;   top:46px;   left:79px;   background:#63a63e;   width:67px;   height:67px;   border-radius:50%}
 
-.message-add-cart::after{      content:"";        position:absolute;        top:68px;        left:94px;        width:39px;        height:30px;        background-position:-10px -731px;        background-image:url("../img/icons-sprite-2.png")}
+.message-add-cart::after{  content:"";   position:absolute;   top:68px;   left:94px;   width:39px;   height:30px;   background-position:-10px -731px;   background-image:url("../img/icons-sprite-2.png")}
 
-.modal-write-us{      display:none;        position:fixed;        box-sizing:border-box;        width:620px;        height:420px;        left:50%;        bottom:50%;        margin-left:-310px;        margin-bottom:-267px;        padding-top:48px;        color:#000;        font-size:18px;        line-height:18px;         font-family:"Cuprum","Arial",sans-serif;        border-top:6px solid #ee3643;        background:#fff;        box-shadow:0 0 60px 10px #696969;        z-index:5000}
+.modal-write-us{  display:none;   position:fixed;   box-sizing:border-box;   width:620px;   height:420px;   left:50%;   bottom:50%;   margin-left:-310px;   margin-bottom:-267px;   padding-top:48px;   color:#000;   font-size:18px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   border-top:6px solid #ee3643;   background:#fff;   box-shadow:0 0 60px 10px #696969;   z-index:5000}
 
-.modal-write-us input[type="text"]{      display:block;        float:left;        width:205px;        padding-left:12px;        padding-top:9px;        padding-left:12px;        padding-bottom:8px;        margin-top:9px;        margin-bottom:20px;        font-weight:normal;        font-size:13px;        line-height:18px;        font-family:"PT Sans","Arial",sans-serif;        background-color:#fff;        border:2px solid #d7dcde;        border-radius:2px}
+.modal-write-us input[type="text"]{  display:block;   float:left;   width:205px;   padding-left:12px;   padding-top:9px;   padding-left:12px;   padding-bottom:8px;   margin-top:9px;   margin-bottom:20px;   font-weight:normal;   font-size:13px;   line-height:18px;   font-family:"PT Sans","Arial",sans-serif;   background-color:#fff;   border:2px solid #d7dcde;   border-radius:2px}
 
-.modal-write-us .write-us-fields{      padding:0 80px}
+.modal-write-us .write-us-fields{  padding:0 80px}
 
-.modal-write-us .left-col{      float:left;        width:220px;        margin-right:20px}
+.modal-write-us .left-col{  float:left;   width:220px;   margin-right:20px}
 
-.modal-write-us .right-col{      float:right;        width:220px}
+.modal-write-us .right-col{  float:right;   width:220px}
 
-.modal-write-us textarea{      float:left;        width:440px;        height:97px;        padding-left:13px;        padding-top:9px;        margin-top:10px;        background-color:#fff;        border:2px solid #d7dcde;        border-radius:2px;        font-weight:normal;        font-size:13px;        line-height:18px;        font-family:"PT Sans","Arial",sans-serif}
+.modal-write-us textarea{  float:left;   width:440px;   height:97px;   padding-left:13px;   padding-top:9px;   margin-top:10px;   background-color:#fff;   border:2px solid #d7dcde;   border-radius:2px;   font-weight:normal;   font-size:13px;   line-height:18px;   font-family:"PT Sans","Arial",sans-serif}
 
-.write-us-background{      box-sizing:border-box;        margin-top:40px;        height:112px;        background:#f1f1f1}
+.write-us-background{  box-sizing:border-box;   margin-top:40px;   height:112px;   background:#f1f1f1}
 
-.modal-write-us button{      display:inline-block;        box-sizing:border-box;        width:463px;        height:40px;        margin-top:35px;        margin-left:76px;        margin-bottom:0px;        line-height:42px;        color:#fff;        font-size:14px;        line-height:18px;        font-family:"Cuprum","Arial",sans-serif;        text-transform:uppercase;        text-align:center;        vertical-align:top;        background:#ee3643;        border-radius:3px;        cursor:pointer}
+.modal-write-us button{  display:inline-block;   box-sizing:border-box;   width:463px;   height:40px;   margin-top:35px;   margin-left:76px;   margin-bottom:0px;   line-height:42px;   color:#fff;   font-size:14px;   line-height:18px;   font-family:"Cuprum","Arial",sans-serif;   text-transform:uppercase;   text-align:center;   vertical-align:top;   background:#ee3643;   border-radius:3px;   cursor:pointer}
 
-.modal-write-us .btn-close{      position:absolute;        width:22px;        height:22px;        top:0;        right:0;        font-size:0;        background-color:transparent;        border:0;        cursor:pointer}
+.modal-write-us .btn-close{  position:absolute;   width:22px;   height:22px;   top:0;   right:0;   font-size:0;   background-color:transparent;   border:0;   cursor:pointer}
 
-.modal-write-us .btn-close::before{      content:"";        position:absolute;        top:-23px;        right:8px;        width:21px;        height:21px;        background-position:-10px -690px;        background-image:url("../img/icons-sprite-2.png")}
+.modal-write-us .btn-close::before{  content:"";   position:absolute;   top:-23px;   right:8px;   width:21px;   height:21px;   background-position:-10px -690px;   background-image:url("../img/icons-sprite-2.png")}
 
-.popup-map{      position:fixed;        top:50%;        left:50%;        z-index:1000;        margin-top:-340px;        margin-left:-470px;        width:940px;        height:446px;        top:50%;        left:50%;        z-index:1000;        background:url("../img/map 940-446.png");       box-shadow:0 0 22px 5px #c4c3c4;       display:none}
+.popup-map{  position:fixed;   top:50%;   left:50%;   z-index:1000;   margin-top:-340px;   margin-left:-470px;   width:940px;   height:446px;   top:50%;   left:50%;   z-index:1000;   background:url("../img/map 940-446.png");   box-shadow:0 0 22px 5px #c4c3c4;   display:none}
 
-.btn-popup-map{      width:22px;        height:22px;        position:absolute;        top:8px;        right:8px;        font-size:0;        background-color:transparent;        border:0;        cursor:pointer}
+.btn-popup-map{  width:22px;   height:22px;   position:absolute;   top:8px;   right:8px;   font-size:0;   background-color:transparent;   border:0;   cursor:pointer}
 
-.btn-popup-map::before{      content:"";        position:absolute;        top:7px;        right:7px;        width:21px;        height:21px;        background-position:-10px -690px;        background-image:url("../img/icons-sprite-2.png")}
+.btn-popup-map::before{  content:"";   position:absolute;   top:7px;   right:7px;   width:21px;   height:21px;   background-position:-10px -690px;   background-image:url("../img/icons-sprite-2.png")}
 
-.sprite--icon-basket2{     width:17px;       height:16px;       background-position:-10px -10px}
+.sprite--icon-basket2{ width:17px;  height:16px;  background-position:-10px -10px}
 
-.sprite--icon-down-dir{     width:11px;       height:10px;       background-position:-10px -46px}
+.sprite--icon-down-dir{ width:11px;  height:10px;  background-position:-10px -46px}
 
-.sprite--icon-facebook-copy{     width:10px;       height:18px;       background-position:-10px -76px}
+.sprite--icon-facebook-copy{ width:10px;  height:18px;  background-position:-10px -76px}
 
-.sprite--icon-home{     width:15px;       height:12px;       background-position:-10px -114px}
+.sprite--icon-home{ width:15px;  height:12px;  background-position:-10px -114px}
 
-.sprite--icon-instagramm-copy{     width:17px;       height:17px;       background-position:-10px -146px}
+.sprite--icon-instagramm-copy{ width:17px;  height:17px;  background-position:-10px -146px}
 
-.sprite--icon-left{     width:22px;       height:40px;       background-position:-10px -183px}
+.sprite--icon-left{ width:22px;  height:40px;  background-position:-10px -183px}
 
 .sprite--icon-login-hov{}
 
-.sprite--icon-logout{     width:21px;       height:17px;       background-position:-10px -280px}
+.sprite--icon-logout{ width:21px;  height:17px;  background-position:-10px -280px}
 
-.sprite--icon-right{     width:22px;       height:40px;       background-position:-10px -317px}
+.sprite--icon-right{ width:22px;  height:40px;  background-position:-10px -317px}
 
-.sprite--icon-right-breads{     width:8px;       height:12px;       background-position:-10px -377px}
+.sprite--icon-right-breads{ width:8px;  height:12px;  background-position:-10px -377px}
 
-.sprite--icon-right-small{     width:8px;       height:12px;       background-position:-10px -409px}
+.sprite--icon-right-small{ width:8px;  height:12px;  background-position:-10px -409px}
 
-.sprite--icon-search{     width:17px;       height:17px;       background-position:-10px -441px}
+.sprite--icon-search{ width:17px;  height:17px;  background-position:-10px -441px}
 
-.sprite--icon-search-red{     width:17px;       height:17px;       background-position:-10px -478px}
+.sprite--icon-search-red{ width:17px;  height:17px;  background-position:-10px -478px}
 
-.sprite--icon-up-dir{     width:11px;       height:10px;       background-position:-10px -515px}
+.sprite--icon-up-dir{ width:11px;  height:10px;  background-position:-10px -515px}
 
-.sprite--icon-user-dark{     width:20px;       height:18px;       background-position:-10px -545px}
+.sprite--icon-user-dark{ width:20px;  height:18px;  background-position:-10px -545px}
 
-.sprite--icon-user-gray{     width:20px;       height:18px;       background-position:-10px -583px}
+.sprite--icon-user-gray{ width:20px;  height:18px;  background-position:-10px -583px}
 
-.sprite--icon-vk-copy{     width:20px;       height:12px;       background-position:-10px -621px}
+.sprite--icon-vk-copy{ width:20px;  height:12px;  background-position:-10px -621px}
 
-.sprite--login-icon{     width:20px;       height:17px;       background-position:-10px -653px}
+.sprite--login-icon{ width:20px;  height:17px;  background-position:-10px -653px}
 
-.sprite-Cross-_16x16_-copy{     width:21px;       height:21px;       background-position:-10px -690px}
+.sprite-Cross-_16x16_-copy{ width:21px;  height:21px;  background-position:-10px -690px}
 
-.sprite-Shape-3-copy-3{     width:39px;       height:30px;       background-position:-10px -731px}
+.sprite-Shape-3-copy-3{ width:39px;  height:30px;  background-position:-10px -731px}
 
-.sprite-basket-icon{     width:17px;       height:16px;       background-position:-10px -781px}
+.sprite-basket-icon{ width:17px;  height:16px;  background-position:-10px -781px}
 
-.sprite-bookmark-icon{     width:14px;       height:16px;       background-position:-10px -817px}
+.sprite-bookmark-icon{ width:14px;  height:16px;  background-position:-10px -817px}
 
-.sprite-icon-items-delivery{     width:78px;       height:63px;       background-position:-10px -853px}
+.sprite-icon-items-delivery{ width:78px;  height:63px;  background-position:-10px -853px}
 
-.sprite-icon-items-discount{     width:59px;       height:72px;       background-position:-10px -936px}
+.sprite-icon-items-discount{ width:59px;  height:72px;  background-position:-10px -936px}
 
-.sprite-icon-items-materials{     width:44px;       height:65px;       background-position:-10px -1028px}
+.sprite-icon-items-materials{ width:44px;  height:65px;  background-position:-10px -1028px}
 
-.sprite-icon-items-technics{     width:78px;       height:62px;       background-position:-10px -1113px}
+.sprite-icon-items-technics{ width:78px;  height:62px;  background-position:-10px -1113px}
 
-.sprite-icon-items-tools{     width:75px;       height:61px;       background-position:-10px -1195px}
+.sprite-icon-items-tools{ width:75px;  height:61px;  background-position:-10px -1195px}
 
-.sprite-phone-icon{     width:19px;       height:19px;       background-position:-10px -1276px}
+.sprite-phone-icon{ width:19px;  height:19px;  background-position:-10px -1276px}
 
-.sprite-search-icon{     width:17px;       height:17px;       background-position:-10px -1315px}
+.sprite-search-icon{ width:17px;  height:17px;  background-position:-10px -1315px}
 
-.sprite-vert-line-servise{     width:10px;       height:272px;       background-position:-10px -1352px}
+.sprite-vert-line-servise{ width:10px;  height:272px;  background-position:-10px -1352px}
 
-.sprite--icon-facebook-copy{     width:10px;       height:18px;       background-position:-10px -76px}
+.sprite--icon-facebook-copy{ width:10px;  height:18px;  background-position:-10px -76px}
 
-.sprite--icon-instagramm-copy{     width:17px;       height:17px;       background-position:-10px -146px}
+.sprite--icon-instagramm-copy{ width:17px;  height:17px;  background-position:-10px -146px}
 
-.sprite--icon-vk-copy{     width:20px;       height:12px;       background-position:-10px -621px}
+.sprite--icon-vk-copy{ width:20px;  height:12px;  background-position:-10px -621px}
 
-.sprite--icon-home{     width:15px;       height:12px;       background-position:-10px -114px}
+.sprite--icon-home{ width:15px;  height:12px;  background-position:-10px -114px}
 
-.sprite--icon-right-breads{     width:8px;       height:12px;       background-position:-10px -377px}
+.sprite--icon-right-breads{ width:8px;  height:12px;  background-position:-10px -377px}
 
-.sprite--icon-right{     width:22px;       height:40px;       background-position:-10px -317px}
+.sprite--icon-right{ width:22px;  height:40px;  background-position:-10px -317px}
 
-.sprite--icon-right-breads{     width:8px;       height:12px;       background-position:-10px -377px}
+.sprite--icon-right-breads{ width:8px;  height:12px;  background-position:-10px -377px}
 
-.sprite--icon-right-small{     width:8px;       height:12px;       background-position:-10px -409px}
+.sprite--icon-right-small{ width:8px;  height:12px;  background-position:-10px -409px}
 
-.sprite--icon-user-dark{     width:20px;       height:18px;       background-position:-10px -545px}
+.sprite--icon-user-dark{ width:20px;  height:18px;  background-position:-10px -545px}
 
-.sprite--icon-check-off-dis{      width:23px;        height:23px;        background-position:-10px -10px}
+.sprite--icon-check-off-dis{ width:23px;  height:23px;  background-position:-10px -10px}
 
-.sprite--icon-check-off-hov{      width:23px;        height:23px;        background-position:-10px -53px}
+.sprite--icon-check-off-hov{ width:23px;  height:23px;  background-position:-10px -53px}
 
-.sprite--icon-check-off-norm{      width:23px;        height:23px;        background-position:-10px -96px}
+.sprite--icon-check-off-norm{ width:23px;  height:23px;  background-position:-10px -96px}
 
-.sprite--icon-check-on-dis{      width:27px;        height:23px;        background-position:-10px -139px}
+.sprite--icon-check-on-dis{ width:27px;  height:23px;  background-position:-10px -139px}
 
-.sprite--icon-check-on-hov{      width:27px;        height:23px;        background-position:-10px -182px}
+.sprite--icon-check-on-hov{ width:27px;  height:23px;  background-position:-10px -182px}
 
-.sprite--icon-check-on-norm{      width:27px;        height:23px;        background-position:-10px -225px}
+.sprite--icon-check-on-norm{ width:27px;  height:23px;  background-position:-10px -225px}
 
-.sprite--icon-circle-dis{      width:25px;        height:25px;        background-position:-10px -268px}
+.sprite--icon-circle-dis{ width:25px;  height:25px;  background-position:-10px -268px}
 
-.sprite--icon-circle-dot-dis{      width:25px;        height:25px;        background-position:-10px -313px}
+.sprite--icon-circle-dot-dis{ width:25px;  height:25px;  background-position:-10px -313px}
 
-.sprite--icon-circle-dot-hov{      width:25px;        height:25px;        background-position:-10px -358px}
+.sprite--icon-circle-dot-hov{ width:25px;  height:25px;  background-position:-10px -358px}
 
-.sprite--icon-circle-dot-norm{      width:25px;        height:25px;        background-position:-10px -403px}
+.sprite--icon-circle-dot-norm{ width:25px;  height:25px;  background-position:-10px -403px}
 
-.sprite--icon-circle-hov{      width:25px;        height:25px;        background-position:-10px -448px}
+.sprite--icon-circle-hov{ width:25px;  height:25px;  background-position:-10px -448px}
 
-.sprite--icon-circle-norm{      width:25px;        height:25px;        background-position:-10px -493px}
+.sprite--icon-circle-norm{ width:25px;  height:25px;  background-position:-10px -493px}
 
-.sprite--icon-right-small{      width:8px;        height:12px;        background-position:-10px -538px}
+.sprite--icon-right-small{ width:8px;  height:12px;  background-position:-10px -538px}
 
-/
 .sprite--icon-circle-dis{ width:25px;  height:25px;  background-position:-10px -268px}
 
 .sprite--icon-circle-dot-dis{ width:25px;  height:25px;  background-position:-10px -313px}
